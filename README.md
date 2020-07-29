@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# React Nice Resume     
 
-You can use the [editor on GitHub](https://github.com/devsagarkhatri/resume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### DEMO is [here](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
 
-### Markdown
+# About [`particles-bg`](https://github.com/lindelof/particles-bg) library
+#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
 
-```markdown
-Syntax highlighted code block
+## Description
+This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
 
-# Header 1
-## Header 2
-### Header 3
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img2.jpg?raw=true)
 
-- Bulleted
-- List
+## Run Project
+### 1. Clone the project
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### 2. Run the project
+```shell
+npm i
+npm start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devsagarkhatri/resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 3. BUild
+```shell
+npm run build
+```
