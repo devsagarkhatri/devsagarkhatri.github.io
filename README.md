@@ -1,5 +1,4 @@
 # Welcome to my Portfolio
-## This is the Link to my website : www.devsagarkhatri.github.io
 <div align="center">
 <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" height="" width="600" />
 </div>  
@@ -24,7 +23,7 @@
 
 
 ## My Skill Set  
-<table><tr><td valign="top" width="33%">
+<table><tr><td valign="top" width="50%">
 
 ### Frontend  
 <div align="center">  
@@ -36,7 +35,7 @@
 <img style="margin: 10px" src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="C" height="50" />  
 <img style="margin: 10px" src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="Python" height="50" />  
 <img style="margin: 10px" src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="Java" height="50" />  
-</div></td><td valign="top" width="33%">
+</div></td><td valign="top" width="50%">
 
 ### Backend  
 <div align="center">  
@@ -44,7 +43,7 @@
 <img style="margin: 10px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" height="50" />  
 <img style="margin: 10px" src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
 <img style="margin: 10px" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" height="50" />  
-</div></td><td valign="top" width="33%"></td></tr></table>  
+</div></td></tr></table>  
 
 <br/>  
 
@@ -75,16 +74,12 @@
 <br/>  
 
 
-## Recent Blog Posts  
-  
-
-<br/>  
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=devsagarkhatri&&style=flat-square" align="center" />
 </div>  
 
 <br />
-
+## This is the Link to my website : www.devsagarkhatri.github.io
 ----
 <div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
