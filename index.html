@@ -4,7 +4,7 @@
     <title>Sagar Khatri | Portfolio</title>
     <style>
     body{
-      background-image: linear-gradient(90deg,red, purple);
+      background-image: linear-gradient(50deg,red, purple);
     }
      .div1 {
        width : 95%;
@@ -23,9 +23,19 @@
        display: block; 
        width: 100%; 
        border: none; 
-       overflow-y: auto; 
-       overflow-x: auto;
        margin-bottom :0px;
+}
+      html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 
        
