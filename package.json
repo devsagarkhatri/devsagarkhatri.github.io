@@ -1,5 +1,5 @@
 {
-  "homepage": "http://devsagarkhatri.github.io/",
+  "homepage": "https://devsagarkhatri.github.io/",
   "name": "devsagarkhatri.github.io",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/devsagarkhatri/devsagarkhatri.github.io",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
