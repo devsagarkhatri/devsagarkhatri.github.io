@@ -17,8 +17,25 @@
 .App-intro {
   font-size: large;
 }
-
+.main_head {
+  background: url(components/images/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  width: 100% !important;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
