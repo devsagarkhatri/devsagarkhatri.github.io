@@ -2,15 +2,20 @@ import React, { Component } from "react";
 
 import Header from "./components/Header.jsx";
 
-import PFV_Panel from "./components/PFV_Panel.jsx";
+import PFV_Panel from "./Projects/PFVisualizer/PFV_Panel.jsx";
 import "./App.css";
+
+import Portfolio from "./Portfolio/Portfolio";
+import Footer from "./components/Footer.jsx";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="main_head"></div>
         <Header />
-        <PFV_Panel />
+        <Portfolio />
+        <Footer />
       </div>
     );
   }

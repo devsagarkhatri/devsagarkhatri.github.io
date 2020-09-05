@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import "./../App.css";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
-import logo from "./images/Picture1.png";
+import logo from "./images/Picture3.png";
+import logo1 from "./images/Picture5.png";
+
 class Header extends Component {
   state = {};
   render() {
     return (
-      <nav className="main_head sticky-top show navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="main_head sticky-top show navbar navbar-expand-lg navbar-dark">
         <a className="navbar-brand" href="#">
-          <img src={logo} alt={"logo"} height="50px" />
+          <img src={logo} height="35px" />
         </a>
         <button
           className="navbar-toggler"

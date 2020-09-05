@@ -1,0 +1,50 @@
+@keyframes boxChange {
+  0% {
+    height: 410px;
+    width: 310px;
+    font-size: smaller;
+  }
+  10%,
+  40% {
+    height: 410px;
+    width: 570px;
+    font-size: larger;
+  }
+  40%,
+  70% {
+    height: 510px;
+    width: 410px;
+    font-size: normal;
+  }
+  70%,
+  100% {
+    height: 410px;
+    width: 310px;
+    font-size: larger;
+  }
+}
+
+.rect {
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  background-color: rgba(250, 250, 250, 0);
+  border-top: 4px;
+  border-bottom: 9px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19),
+    0 15px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transform: translate(-50%, -60%);
+  overflow: auto;
+  padding: 1vw;
+  position: relative;
+  color: rgba(250, 250, 250, 1);
+  font-style: italic;
+  vertical-align: middle;
+  font-family: cursive;
+  font-size: 5vh;
+  text-justify: newspaper;
+  text-align: left;
+}

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PFV_Header from "./PFV_Header.jsx";
 import Node from "./Node/Node";
 import "./PFV_Panel.css";
-import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
+import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 class PFV_Panel extends Component {
   constructor(props) {
