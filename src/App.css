@@ -19,7 +19,7 @@
 }
 
 .main_wrap {
-  height: 93vh !important;
+  height: 99vh !important;
   background-color: transparent;
 }
 
@@ -31,6 +31,16 @@
 .main_head {
   background: transparent;
 
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  position: sticky;
+  width: 100vw !important;
+  left: 0px;
+  top: 0px;
+}
+.nav_head {
+  background: rgba(0, 0, 0, 0.03);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
   padding-top: 0px !important;
   margin-top: 0px !important;

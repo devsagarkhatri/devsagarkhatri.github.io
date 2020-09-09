@@ -7,3 +7,51 @@
   left: 0px;
   top: 0px;
 }
+.relative {
+  position: relative;
+}
+.backTextEd {
+  margin-left: 5%;
+  position: relative;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  float: left;
+  font-size: 12vw;
+  font-family: fantasy;
+  color: rgba(200, 200, 2000, 0.03);
+}
+.z2 {
+  z-index: 2;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: white;
+}
+
+.heading {
+  font-size: 4vw;
+  font-family: cursive;
+}
+/*
+*********************
+ TIME LINE CSS BELOW
+*********************
+*/
+
+.list {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  text-align: left;
+  padding-left: 10px;
+  border: 0px red solid;
+  width: max-content;
+  line-height: 10%;
+}
+.list > h3 {
+  margin: 0px;
+}

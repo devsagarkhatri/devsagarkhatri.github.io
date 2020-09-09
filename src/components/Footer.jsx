@@ -12,6 +12,7 @@ class Footer extends Component {
       <div className="half_wrap row">
         <div className="col-sm-3 ">
           <img
+            alt=""
             src={logo}
             height="40px"
             style={{ marginBottom: "1vh", marginTop: "6vh" }}
@@ -20,14 +21,14 @@ class Footer extends Component {
           <div className="row">
             <div className="col-sm-3"></div>
             <div className="col-sm-2">
-              <img src={git} height="30px" />
+              <img alt="" src={git} height="30px" />
             </div>
 
             <div className="col-sm-2">
-              <img src={linkedin} height="30px" />
+              <img alt="" src={linkedin} height="30px" />
             </div>
             <div className="col-sm-2">
-              <img src={web} height="30px" />
+              <img alt="" src={web} height="30px" />
             </div>
             <div className="col-sm-3"></div>
           </div>

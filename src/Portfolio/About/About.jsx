@@ -7,8 +7,13 @@ class About extends Component {
   render() {
     return (
       <div className="aboutFull main_wrap row">
-        <div className="col-sm-4 bg-light">Hello</div>
-        <div className="col-sm-8 bg-dark">World</div>
+        <div className="col-sm-4 bg-light"></div>
+        <div className="col-sm-8 bg-dark">
+          <div className="backTextAb">About</div>
+          <div className="z2">
+            <div className="heading">About</div>
+          </div>
+        </div>
       </div>
     );
   }

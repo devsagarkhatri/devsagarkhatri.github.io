@@ -13,7 +13,7 @@ class Portfolio extends Component {
           <Welcome />
         </div>
 
-        <div style={{ border: "white 2px" }}>
+        <div>
           <About />
         </div>
         <div>

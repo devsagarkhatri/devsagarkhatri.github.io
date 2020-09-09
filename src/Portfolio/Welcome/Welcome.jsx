@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getDim } from "./Dimension.js";
+
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./welcome.css";
 
@@ -41,7 +41,6 @@ class Welcome extends Component {
     this.setState({ y: leny[newcurrent] });
     this.setState({ font: font[newcurrent] });
     this.setState({ skill: skill[newcurrent] });
-    console.log(this.state.y);
   }
 
   render() {

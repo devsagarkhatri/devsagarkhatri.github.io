@@ -8,9 +8,9 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <nav className="main_head sticky-top show navbar navbar-expand-lg navbar-dark">
+      <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark">
         <a className="navbar-brand" href="#">
-          <img src={logo} height="35px" />
+          <img alt="" src={logo} height="35px" />
         </a>
         <button
           className="navbar-toggler"

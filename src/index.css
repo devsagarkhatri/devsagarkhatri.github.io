@@ -16,3 +16,12 @@ body {
   -moz-animation: gradient 20s ease infinite;
   animation: gradient 20s ease infinite;
 }
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}

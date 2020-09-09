@@ -7,3 +7,28 @@
   left: 0px;
   top: 0px;
 }
+.backTextAb {
+  margin-left: 5%;
+  position: relative;
+  top: -2.5vw;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  float: left;
+  font-size: 16vw;
+  font-family: fantasy;
+  color: rgba(100, 100, 100, 0.05); /**/
+}
+
+.z2 {
+  z-index: 2;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: gold;
+}
+
+.heading {
+  font-size: 4vw;
+  font-family: cursive;
+}
