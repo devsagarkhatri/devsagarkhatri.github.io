@@ -19,12 +19,18 @@
 }
 
 .main_wrap {
-  height: 99vh !important;
-  background-color: transparent;
+  height: 100vh !important;
+  background: transparent;
+  background-repeat: no-repeat;
+
+  background-position: right bottom;
+  background-clip: content-box;
+  background-size: 60vh;
+  enable-background: accumulate;
 }
 
 .half_wrap {
-  height: 20vh !important;
+  height: 25vh !important;
 
   box-shadow: inset 0 0 0 3000px rgba(225, 10, 10, 0.5);
 }

@@ -1,6 +1,14 @@
-hr {
-  width: 70%;
+* {
   color: white;
-  background-color: white;
-  vertical-align: middle;
+}
+.copyright {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  box-shadow: inset 0 0 0 3000px rgba(225, 10, 10, 0.5);
+  padding-bottom: 10px;
+}
+.hrfooter {
+  border: 0.5px inset white;
+  background-color: transparent;
 }

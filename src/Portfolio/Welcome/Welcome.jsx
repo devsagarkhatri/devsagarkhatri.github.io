@@ -45,7 +45,7 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div className="main_wrap ">
+      <div className="main_wrap">
         <div
           className="rect"
           style={{

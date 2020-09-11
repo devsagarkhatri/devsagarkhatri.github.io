@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./../App.css";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
 import logo from "./images/Picture3.png";
-import logo1 from "./images/Picture5.png";
 
 class Header extends Component {
   state = {};

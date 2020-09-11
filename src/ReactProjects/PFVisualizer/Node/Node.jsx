@@ -14,7 +14,7 @@ class Node extends Component {
       : isStart
       ? "node-start"
       : "";
-    return <div className={"node ${extraClassName}"}></div>;
+    return <div className={"node" + extraClassName}></div>;
   }
 }
 

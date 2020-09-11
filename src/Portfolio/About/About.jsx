@@ -7,7 +7,24 @@ class About extends Component {
   render() {
     return (
       <div className="aboutFull main_wrap row">
-        <div className="col-sm-4 bg-light"></div>
+        <div className="col-sm-4 bg-about">
+          <div
+            className="LI-profile-badge"
+            data-version="v1"
+            data-size="large"
+            data-locale="en_US"
+            data-type="vertical"
+            data-theme="dark"
+            data-vanity="sagarkhatri"
+          >
+            <a
+              className="LI-simple-link"
+              href="https://in.linkedin.com/in/sagarkhatri?trk=profile-badge"
+            >
+              Sagar Khatri
+            </a>
+          </div>
+        </div>
         <div className="col-sm-8 bg-dark">
           <div className="backTextAb">About</div>
           <div className="z2">

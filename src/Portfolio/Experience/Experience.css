@@ -1,0 +1,39 @@
+.bg-experience {
+  background: url("./../../components/images/experience.svg") white;
+  background-size: cover;
+
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.list {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  text-align: left;
+
+  float: left;
+  border: 0px red solid;
+  width: max-content;
+  max-width: 25vw;
+  line-height: 10%;
+}
+
+.exlogo {
+  border-radius: 100px;
+  height: 180px;
+}
+
+.desc1 {
+  padding-bottom: 2vw;
+  text-align: justify;
+  font-style: italic;
+}
+hr {
+  margin-top: 0px;
+  width: 100%;
+  background-color: white;
+  float: left;
+}

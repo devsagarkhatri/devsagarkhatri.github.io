@@ -32,3 +32,14 @@
   font-size: 4vw;
   font-family: cursive;
 }
+.bg-about {
+  background: url("./../../components/images/Wall-post-pana.svg") white;
+  background-size: cover;
+  align-content: space-around;
+  text-align: center;
+  padding-top: 31.5vh;
+  padding-left: 5vw;
+  background-size: 60vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

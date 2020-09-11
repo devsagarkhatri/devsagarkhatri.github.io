@@ -46,25 +46,8 @@
 *********************
 */
 
-.list {
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  margin-right: 20px;
-  text-align: left;
-  float: left;
-
-  width: max-content;
-  line-height: 10%;
-}
-
-.edlogo {
-  border-radius: 100px;
-  height: 100px;
-}
-
-.bgpic {
-  background: url("./../../components/images/desk.svg") white;
+.probgpic {
+  background: url("./../../components/images/project3.svg") white;
   background-size: cover;
 
   background-size: 30vw;
