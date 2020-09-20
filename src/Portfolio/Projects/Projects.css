@@ -46,6 +46,20 @@
 *********************
 */
 
+.proCard {
+  border: 0px;
+  padding-top: 1vw;
+  background: linear-gradient(0deg, transparent, transparent, rgb(40, 40, 40));
+}
+
+.proCard:hover {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    transparent,
+    rgb(40, 40, 40)
+  );
+}
 .probgpic {
   background: url("./../../components/images/project3.svg") white;
   background-size: cover;

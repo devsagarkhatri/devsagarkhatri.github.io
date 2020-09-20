@@ -30,9 +30,16 @@
 }
 
 .half_wrap {
-  height: 25vh !important;
-
-  box-shadow: inset 0 0 0 3000px rgba(225, 10, 10, 0.5);
+  background: linear-gradient(
+    50deg,
+    rgb(3, 3, 29),
+    rgb(0, 0, 255),
+    rgb(65, 105, 225)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+  -moz-animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
 }
 .main_head {
   background: transparent;

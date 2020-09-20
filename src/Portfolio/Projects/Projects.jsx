@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { getData } from "./proData.js";
 import "./Projects.css";
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
 import Timeline from "./Timeline";
 
 class Education extends Component {
@@ -17,7 +18,7 @@ class Education extends Component {
   render() {
     return (
       <div className="aboutFull main_wrap row">
-        <div className="col-sm-8 bg-chrome relative">
+        <div className="col-sm-12 col-md-8 bg-chrome relative">
           <div className="backTextEd">Projects</div>
           <div className="z2">
             <div className="heading" style={{ float: "left" }}>
@@ -34,7 +35,7 @@ class Education extends Component {
             <Timeline data={this.state.data} key={this.state.data.key} />
           </div>
         </div>
-        <div className="col-sm-4 probgpic"></div>
+        <div className="col-md-4 hidden-sm-down probgpic"></div>
       </div>
     );
   }

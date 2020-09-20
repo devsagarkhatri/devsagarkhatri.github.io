@@ -1,14 +1,122 @@
+@keyframes gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 90% 50%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+
 * {
   color: white;
 }
-.copyright {
-  font-style: italic;
-  font-family: cursive;
-  font-size: 20px;
-  box-shadow: inset 0 0 0 3000px rgba(225, 10, 10, 0.5);
-  padding-bottom: 10px;
+
+/************
+New footer css code bootstrap4
+*************/
+
+.full {
+  width: 100vw;
 }
-.hrfooter {
-  border: 0.5px inset white;
-  background-color: transparent;
+.gap {
+  height: 30px;
+  width: 100vw;
+  clear: both;
+  display: block;
+}
+.footer {
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 101vw;
+}
+
+.footer p {
+  margin: 0;
+}
+.footer img {
+  max-width: 100%;
+}
+.footer h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 0px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 38px;
+  padding: 40px 0 10px;
+  font-family: cursive;
+  font-weight: lighter;
+}
+
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0px;
+  color: white;
+  padding: 0 0 8px 0;
+}
+
+.email {
+}
+.footer ul li a {
+  padding: 0 0 12px 0;
+  display: block;
+}
+.footer a {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.supportLi h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+.bg-gray {
+  background-image: -moz-linear-gradient(
+    center bottom,
+    #bbbbbb 0%,
+    #f0f0f0 100%
+  );
+  box-shadow: 0 1px 0 #b4b3b3;
+}
+
+.footer-bottom {
+  margin-top: 3em;
+  border-top: 1px solid #dddddd;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.footer-bottom p.pull-left {
+  padding-top: 10px;
+  font-size: 0.85em;
+  bottom: 0px;
 }

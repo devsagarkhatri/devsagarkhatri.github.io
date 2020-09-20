@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-
+  width: 100vw;
   background: linear-gradient(
     90deg,
     #c2185b,

@@ -7,12 +7,12 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href="#">
+      <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark ">
+        <a className="navbar-brand text-center" href="#">
           <img alt="" src={logo} height="35px" />
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-white"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -25,22 +25,11 @@ class Header extends Component {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item m-2 ">
-              <a className="nav-link" href="#">
-                About
-              </a>
-            </li>
             <li className="nav-item m-2">
-              <a className="nav-link" href="#">
-                Services
+              <a className="nav-link text-white" href="#">
+                Resume
               </a>
             </li>
-            <li className="nav-item m-2">
-              <a className="nav-link" href="#">
-                Portfolio
-              </a>
-            </li>
-
             <li className="nav-item m-2 dropdown">
               <a
                 className="nav-link show dropdown-toggle"
@@ -76,8 +65,8 @@ class Header extends Component {
               </ul>
             </li>
             <li className="nav-item m-2">
-              <a className="nav-link" href="#">
-                Visualizer
+              <a className="nav-link  text-white" href="#">
+                Contact
               </a>
             </li>
           </ul>

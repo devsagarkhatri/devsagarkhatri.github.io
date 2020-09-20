@@ -47,7 +47,7 @@ class PFV_Panel extends Component {
                   <Node
                     key={nodeIdx}
                     isStart={isStart}
-                    isFinish={isStart}
+                    isFinish={isFinish}
                   ></Node>
                 );
               })}

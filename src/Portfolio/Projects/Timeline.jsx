@@ -8,10 +8,10 @@ class Timeline extends Component {
         {this.props.data.map((data1) => (
           <div className="d-inline col-sm-4  " key={data1.key}>
             <div
-              className="card bg-dark proCard"
+              className="card proCard"
               style={{
                 width: "16vw",
-                backgroundColor: "transparent",
+
                 boxShadow: "0 5px 20px 0 rgba(0, 0, 0, 0.03)",
               }}
             >
@@ -20,10 +20,8 @@ class Timeline extends Component {
                 alt="Card"
                 style={{ width: "10vw", alignSelf: "center" }}
               />
-              <div className="card-body bg-dark">
-                <h4 className="card-title">
-                  <u>{data1.technology}</u>
-                </h4>
+              <div className="card-body ">
+                <h4 className="card-title">{data1.technology}</h4>
                 <p className="card-text">
                   <i>View my projects created using {data1.technology}</i>
                 </p>
