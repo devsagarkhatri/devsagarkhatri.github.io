@@ -14,7 +14,7 @@
   background-color: rgb(60, 64, 69); /*My own Dark shade*/
 }
 .backTextEd {
-  margin-left: 5%;
+  margin-left: 1%;
   position: relative;
 
   top: 0;
@@ -22,7 +22,7 @@
   bottom: 0;
   z-index: 0;
   float: left;
-  font-size: 12vw;
+  font-size: 2vw;
   font-family: fantasy;
   color: rgba(200, 200, 2000, 0.03);
 }

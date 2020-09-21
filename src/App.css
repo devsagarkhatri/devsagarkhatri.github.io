@@ -20,20 +20,20 @@
 
 .main_wrap {
   height: 100vh !important;
-  background: transparent;
+  background: url("./components/images/bg3.jpg");
   background-repeat: no-repeat;
 
-  background-position: right bottom;
-  background-clip: content-box;
-  background-size: 60vh;
+  background-position: center;
+  background-clip: ;
+  background-size: cover;
   enable-background: accumulate;
 }
 
 .half_wrap {
   background: linear-gradient(
-    50deg,
-    rgb(3, 3, 29),
-    rgb(0, 0, 255),
+    90deg,
+    rgb(41, 145, 243),
+    rgb(4, 177, 235),
     rgb(65, 105, 225)
   );
   background-size: 400% 400%;
