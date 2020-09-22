@@ -20,7 +20,7 @@
 
 .main_wrap {
   height: 100vh !important;
-  background: url("./components/images/bg3.jpg");
+  background: transparent;
   background-repeat: no-repeat;
 
   background-position: center;
@@ -53,8 +53,18 @@
   top: 0px;
 }
 .nav_head {
-  background: rgba(0, 0, 0, 0.03);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.03);
+  background: linear-gradient(
+    270deg,
+    rgba(41, 145, 243, 0.01),
+    rgba(4, 177, 235, 0.01),
+    rgba(65, 105, 225, 0.01)
+  );
+  backdrop-filter: blur(10px);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+  -moz-animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
+  box-shadow: -2px 6px 10px 0 rgba(0, 0, 0, 0.2);
   padding-top: 0px !important;
   margin-top: 0px !important;
   position: sticky;

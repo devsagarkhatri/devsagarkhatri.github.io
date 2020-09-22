@@ -3,9 +3,14 @@ import React, { Component } from "react";
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./welcome.css";
 
-const lenx = [410, 350, 360, 500];
-const leny = [310, 570, 410, 700];
-const font = ["4vh", "5vh", "4vh", "5vh"];
+// const lenx = [410, 350, 360, 500];
+// const leny = [310, 570, 410, 400];
+// const font = ["4vh", "5vh", "4vh", "5vh"];
+
+const lenx = ["35vw", "35vw", "35vw", "35vw"];
+const leny = ["80vh", "80vh", "80vh", "80vh"];
+const font = ["7vh", "7vh", "6vh", "7vh"];
+
 const skill = [
   "Python Developer",
   "Java Developer",
@@ -14,8 +19,8 @@ const skill = [
 ];
 class Welcome extends Component {
   state = {
-    x: 410,
-    y: 318,
+    x: "35vw",
+    y: "50vw",
     font: "normal",
     skill: "Python Developer",
     current: 0,
@@ -45,7 +50,7 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div className="main_wrap">
+      <div className="bg-welcome main_wrap ">
         <div
           className="rect"
           style={{

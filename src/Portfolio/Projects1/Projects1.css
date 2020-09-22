@@ -1,5 +1,6 @@
 .AboutFull {
   background-size: 100% 100%;
+
   position: relative;
   margin-top: 0px !important;
   width: 100% !important;
@@ -12,6 +13,11 @@
 }
 .bg-chrome {
   background-color: rgb(60, 64, 69); /*My own Dark shade*/
+}
+.bg-img {
+  background: url("./../../components/images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .backTextEd {
   margin-left: 5%;

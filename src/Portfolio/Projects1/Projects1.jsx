@@ -48,7 +48,7 @@ class Projects1 extends Component {
     const projectRow = Paginate(this.state.projects, currentPage, pageSize);
 
     return (
-      <div className="bg-chrome aboutFull main_wrap row ">
+      <div className="bg-img aboutFull main_wrap row ">
         <div className="col-sm-12 col-md-12 relative">
           <div className="backTextEd">Projects</div>
           <div className="z2">
