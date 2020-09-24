@@ -15,7 +15,7 @@
   background-color: rgb(60, 64, 69); /*My own Dark shade*/
 }
 .bg-img {
-  background: url("./../../components/images/bg3.jpg");
+  background: url("./../../components/images/bg5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,6 +46,12 @@
   width: 100%;
   text-align: left;
 }
+
+.frame {
+  border: 10px solid transparent;
+  border-image: url("./../../components/images/frame1.png") 30 round;
+}
+
 /*
 *********************
  TIME LINE CSS BELOW

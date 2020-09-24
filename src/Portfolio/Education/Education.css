@@ -23,7 +23,7 @@
   z-index: 0;
   float: left;
   font-size: 2vw;
-  font-family: fantasy;
+  font-family: "Trirong", fantasy;
   color: rgba(200, 200, 2000, 0.03);
 }
 .z2 {
@@ -36,7 +36,7 @@
 
 .heading {
   font-size: 4vw;
-  font-family: cursive;
+  font-family: "Trirong", cursive;
   width: 100%;
   text-align: left;
 }

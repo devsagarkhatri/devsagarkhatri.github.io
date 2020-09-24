@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+
 import "./../App.css";
+import "./../../node_modules/bootstrap/dist/js/bootstrap";
+import "./../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
-import logo from "./images/Picture3.png";
+import logo from "./images/Picture0.png";
+import PFV_Panel from "../ReactProjects/PFVisualizer/PFV_Panel";
 
 class Header extends Component {
   state = {};
@@ -9,7 +13,7 @@ class Header extends Component {
     return (
       <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark ">
         <a className="navbar-brand text-center" href="#">
-          <img alt="" src={logo} height="35px" />
+          <img alt="" src={logo} height="40px" />
         </a>
         <button
           className="navbar-toggler text-white"
@@ -32,7 +36,7 @@ class Header extends Component {
             </li>
             <li className="nav-item m-2 dropdown">
               <a
-                className="nav-link show dropdown-toggle"
+                className="nav-link dropdown-toggle text-white"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -42,28 +46,31 @@ class Header extends Component {
               >
                 Projects
               </a>
-              <ul
-                className="dropdown-menu"
-                role="menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a className="dropdown-item m-2" href="#">
-                    PathFinding Visualizer
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item m-2" href="#">
-                    Something else
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item m-2" href="#">
-                    Something esle here
-                  </a>
-                </li>
-              </ul>
+              <div className="blur">
+                <ul
+                  className="dropdown-menu "
+                  role="menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a className="dropdown-item text-white" href={PFV_Panel}>
+                      PathFinding Visualizer
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item text-white " href="#">
+                      Something else
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item text-white " href="#">
+                      Something esle here
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
+
             <li className="nav-item m-2">
               <a className="nav-link  text-white" href="#">
                 Contact

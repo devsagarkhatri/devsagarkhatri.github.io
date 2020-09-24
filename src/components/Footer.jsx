@@ -16,8 +16,8 @@ class Footer extends Component {
             <img
               alt=""
               src={logo}
-              height="40px"
-              style={{ marginBottom: "1vh", marginTop: "6vh" }}
+              height="90px"
+              style={{ marginBottom: "2vh", marginTop: "6vh" }}
             />
 
             <div className="row">

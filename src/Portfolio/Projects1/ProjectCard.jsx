@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
           style={{ marginRight: "20px" }}
           key={project.pic}
         >
-          <div className="bg-light profile-card-4 text-center">
+          <div className="frame bg-light profile-card-9 text-center">
             <img
               src={project.pic}
               className="img img-responsive"

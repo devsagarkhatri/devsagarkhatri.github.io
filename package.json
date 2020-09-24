@@ -1,11 +1,11 @@
 {
-  "homepage": "https://devsagarkhatri.github.io/public/",
+  "homepage": "https://devsagarkhatri.github.io",
   "name": "devsagarkhatri.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "jquery": "^1.9.1",
+    "jquery": "^1.12.4",
     "lodash": "^4.17.20",
     "npm-update": "^2.1.0",
     "popper.js": "^1.16.1",

@@ -8,15 +8,15 @@
   top: 0px;
 }
 .backTextAb {
-  margin-left: 5%;
+  margin-left: 4%;
   position: relative;
   top: -2.5vw;
   left: 0;
   bottom: 0;
   z-index: 0;
   float: left;
-  font-size: 16vw;
-  font-family: fantasy;
+  font-size: 12vw;
+  font-family: "Trirong", fantasy;
   color: rgba(100, 100, 100, 0.05); /**/
 }
 
@@ -29,9 +29,9 @@
 }
 
 .heading {
-  padding-top: 5vh;
+  padding-top: 0vh;
   font-size: 4vw;
-  font-family: cursive;
+  font-family: "Trirong", cursive;
 }
 .bg-about {
   background: url("./../../components/images/Wall-post-pana.svg") white;

@@ -15,7 +15,7 @@ class Projects1 extends Component {
     category: [],
     currentPage: 1,
     currentCategory: [],
-    pageSize: 3,
+    pageSize: 4,
   };
 
   componentDidMount() {

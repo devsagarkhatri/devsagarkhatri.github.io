@@ -10,6 +10,18 @@
   }
 }
 
+@keyframes padding1 {
+  0% {
+    padding-left: 10%;
+  }
+  50% {
+    padding-left: 5%;
+  }
+  100% {
+    padding-left: 0%;
+  }
+}
+
 .App {
   text-align: center;
 }
@@ -71,4 +83,23 @@
   width: 100vw !important;
   left: 0px;
   top: 0px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background: rgba(0, 0, 0, 0.03);
+  border: 0;
+  padding-left: 0%;
+  z-index: 2;
+}
+.dropdown:hover .dropdown-menu .dropdown-item:hover {
+  background: transparent;
+  text-shadow: 2px 2px 6px #4d4b4f;
+  font-style: italic;
+  /* animation: padding1 2s ease-in; */
+}
+
+.blur {
+  filter: ;
+  z-index: -1;
 }
