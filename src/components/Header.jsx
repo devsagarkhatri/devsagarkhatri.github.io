@@ -13,7 +13,7 @@ class Header extends Component {
     return (
       <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark ">
         <a className="navbar-brand text-center" href="#">
-          <img alt="" src={logo} height="40px" />
+          <img alt="" src={logo} height="40px" className="imglogo" />
         </a>
         <button
           className="navbar-toggler text-white"

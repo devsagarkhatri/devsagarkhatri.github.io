@@ -1,3 +1,12 @@
+@keyframes logo {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
 .AboutFull {
   background-size: 100% 100%;
   position: relative;
@@ -28,19 +37,60 @@
   color: gold;
 }
 
+.section {
+  text-align: justify;
+  font-style: italic;
+  width: 75%;
+}
+
 .heading {
   padding-top: 0vh;
   font-size: 4vw;
   font-family: "Trirong", cursive;
 }
+.heading1 {
+  float: left;
+  text-align: justify;
+  font-style: italic;
+  padding-top: 0vh;
+  width: 100%;
+  border: 0px white solid;
+  font-size: 2.4vw;
+  font-family: "Trirong", cursive;
+}
 .bg-about {
-  background: url("./../../components/images/Wall-post-pana.svg") white;
+  background: url("./../../components/images/about.jpg") white;
   background-size: cover;
   align-content: space-around;
   text-align: center;
   padding-top: 31.5vh;
-  padding-left: 5vw;
-  background-size: 60vh;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: brightness(1);
+}
+.bg-about:hover {
+  background: url("./../../components/images/about.jpg") white;
+  background-size: cover;
+  align-content: space-around;
+  text-align: center;
+  padding-top: 31.5vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: brightness(1.1);
+}
+.grid {
+  align-content: center;
+}
+.gridPic {
+  height: 4vw;
+  width: auto;
+  margin: 10px;
+  margin-right: 15px;
+  filter: brightness(0.9);
+}
+.gridPic:hover {
+  filter: brightness(1.1);
+
+  /* z-index: 3;
+  animation: logo 1s ease-out; */
 }
