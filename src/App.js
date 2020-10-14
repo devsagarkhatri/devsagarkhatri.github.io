@@ -9,10 +9,11 @@ import Portfolio from "./Portfolio/Portfolio";
 import Footer from "./components/Footer.jsx";
 
 class App extends Component {
+  state = {};
+
   render() {
     return (
       <div className="App">
-        <div className="main_head"></div>
         <Header />
         <Portfolio />
         <Footer />

@@ -45,15 +45,14 @@
   }
 }
 .bg-experience {
-  background: url("./../../components/images/exp2.jpg") white;
-  background-size: cover;
+  background: url("./../../components/images/experience.svg") white;
+  background-size: contain;
 
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .bg-experience:hover {
-  animation: large1 linear 20s infinite;
 }
 
 .list {

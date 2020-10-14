@@ -15,10 +15,22 @@ class Portfolio extends Component {
           <Welcome />
         </div>
 
-        <About />
-        <Education />
-        <Experience />
-        <Projects1 />
+        <div className="scrolling-wrapper">
+          <div className="card">
+            <About />
+          </div>
+          <div className="card">
+            <Education />
+          </div>
+
+          <div className="card">
+            <Experience />
+          </div>
+
+          <div className="card">
+            <Projects1 />
+          </div>
+        </div>
       </div>
     );
   }
