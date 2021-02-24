@@ -17,7 +17,7 @@
 .bg-img {
   background: url("./../../components/images/bg5.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 105vw 100vh;
 }
 .backTextEd {
   margin-left: 5%;

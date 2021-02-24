@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import Pagination from "./Pagination";
-import ListGroup from "./listGroup";
+//import ListGroup from "./listGroup";
 import "./Projects1.css";
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import { getProjects } from "./ProjectData";
@@ -19,7 +19,7 @@ class Projects1 extends Component {
   };
 
   componentDidMount() {
-    const categories = [{ name: "All Categories" }, ...getCategory()];
+    //const categories = [{ name: "All Categories" }, ...getCategory()];
     this.setState({ projects: getProjects(), category: getCategory() });
     console.log(...getCategory());
   }

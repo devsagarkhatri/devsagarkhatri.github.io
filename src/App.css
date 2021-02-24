@@ -27,6 +27,8 @@
 }
 .App {
   text-align: center;
+  transform-style: preserve-3d;
+  transition: 1s;
 }
 
 .stick {
@@ -56,6 +58,20 @@
   -moz-animation: gradient 20s ease infinite;
   animation: gradient 20s ease infinite;
 }
+
+.half_wrap1 {
+  background: linear-gradient(
+    90deg,
+    rgb(41, 45, 43),
+    rgb(0, 0, 0),
+    rgb(63, 63, 65)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+  -moz-animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
+}
+
 .main_head {
   background: transparent;
 
@@ -86,6 +102,11 @@
   width: 100vw !important;
   left: 0px;
   top: 0px;
+}
+
+.menu_bg {
+}
+.menu_bg:focus {
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -118,4 +139,71 @@
   mask-position: top;
   position: fixed;
   z-index: 50;
+}
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: transparent;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #fff !important;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: rgba(243, 236, 236, 0.03);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: transparent;
+
+  transition: 1s;
+  color: white;
+}
+.main {
+  z-index: 50;
+}
+
+.mainclick {
+  height: 100vh !important;
+  animation: main-animation 0.5s ease;
+  transform: perspective(2000px) scale(0.6) translateX(-150px) rotateY(20deg);
+  transform-style: preserve-3d !important;
+  transition: 1s;
+  perspective-origin: center;
+  box-shadow: -30px 10px 20px rgb(0, 0, 10);
+}
+.mainclick:hover {
+  animation: main-animation 0.5s ease;
+  transform: perspective(2000px) scale(0.61) translateX(-110px) rotateY(22deg);
+  transform-style: preserve-3d !important;
+  box-shadow: -40px 5px 55px rgba(0, 0, 0, 1);
+  perspective-origin: left;
+  cursor: pointer;
+}
+
+@keyframes main-animation {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: perspective(1500px) scale(0.5) translateX(-310px) rotateY(15deg);
+  }
 }

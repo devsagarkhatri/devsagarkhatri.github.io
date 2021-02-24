@@ -7,7 +7,7 @@ import git from "./../../components/images/git_logo.png";
 import py from "./../../components/images/py_logo.png";
 import numpy from "./../../components/images/numpy_logo.png";
 import pandas from "./../../components/images/pandas_logo.png";
-import matplot from "./../../components/images/matplot_logo.svg";
+//import matplot from "./../../components/images/matplot_logo.svg";
 
 import microsoft from "./../../components/images/microsoft_logo.png";
 import progate from "./../../components/images/progate_logo.png";

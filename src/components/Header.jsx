@@ -55,7 +55,7 @@ class Header extends Component {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item text-white" href={PFV_Panel}>
+                      <a className="dropdown-item text-white">
                         PathFinding Visualizer
                       </a>
                     </li>

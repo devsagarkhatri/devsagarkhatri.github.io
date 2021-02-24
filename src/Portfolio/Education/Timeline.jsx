@@ -13,9 +13,9 @@ class Timeline extends Component {
               </div>
             </div>
             <div className="col-sm-10">
-              <div className="list">
-                <h3>{data1.degree}</h3>
-
+              <div className="list grad">
+                <h4>{data1.degree}</h4>
+                <hr className="hr1"/>
                 <h5>
                   <i>{data1.university}</i>
                 </h5>

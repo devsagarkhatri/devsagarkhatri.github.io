@@ -3,7 +3,7 @@ import "./Projects1.css";
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const ProjectCard = (props) => {
-  const projects = props;
+  //const projects = props;
   return (
     <div className="row" style={{ border: "0px white solid" }}>
       {props.projects.map((project) => (
@@ -17,6 +17,7 @@ const ProjectCard = (props) => {
               src={project.pic}
               className="img img-responsive"
               height="295px"
+              alt=""
             />
             <div className="profile-content">
               <div className="text-dark  profile-description">

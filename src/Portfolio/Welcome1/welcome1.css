@@ -1,0 +1,29 @@
+.welcome1 {
+  /* background: linear-gradient(rgb(240, 172, 45), rgb(246, 100, 28)) !important;
+   */
+  background: url("../../components/images/bg_red_wall.jpg");
+  background-size: 106vw 108vh;
+  position: absolute;
+  color: white !important;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw; 
+}
+
+.rect {
+  color:white;
+  font-family: 'Cinzel Decorative';
+  text-rendering: geometricPrecision;
+	text-shadow:  0px 1px 0px rgba(255,255,255,0.5), 0px 2px 1px #999,0px px 1px #888,0px 3px 0px #777,0px 3px 1px #666,0px 4px 0px #555,0px 4px 1px #444,0px 5px 0px #333,0px 5px 2px #222;
+  z-index: 5;
+  border: transparent !important;
+  position: relative;
+  max-width: fit-content;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36vh !important;
+  margin-bottom: auto !important;
+  display:grid;
+  text-align: center;
+
+}

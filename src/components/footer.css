@@ -108,15 +108,151 @@ New footer css code bootstrap4
 }
 
 .footer-bottom {
-  margin-top: 3em;
-  border-top: 1px solid #dddddd;
-  padding-top: 10px;
+  margin-top: 1em;
+  border-top: 0px solid #dddddd;
+  padding-top: 0em;
   padding-bottom: 0px;
   bottom: 0px;
   left: 0px;
 }
-.footer-bottom p.pull-left {
-  padding-top: 10px;
+.footer-bottom p.copyright {
+  padding-top: 1em;
   font-size: 0.85em;
   bottom: 0px;
+}
+
+.form-group input,
+textarea,
+button {
+  margin-bottom: 0.5em;
+}
+
+.form-group input,
+.form-group textarea {
+  border: 0;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+/* This code below is for the new footer implementation of social media icons */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  font-family: "Lato", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1% 0 1% 0;
+}
+._12 {
+  font-size: 0.6em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 100%;
+  line-height: 0.5em;
+  display: inline-flex;
+  margin: auto auto;
+  align-content: stretch;
+}
+.social-icon {
+  color: #fff;
+  display: inline;
+  padding-left: 0.5em;
+}
+ul.social-icons {
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+.social-icons li {
+  vertical-align: middle;
+  display: inline-flex;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding: 10px 14px;
+  font-size: x-large;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+
+.fa-youtube {
+  padding: 10px 14px;
+  font-size: x-large;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding: 10px 14px;
+  font-size: x-large;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-github {
+  padding: 10px 14px;
+  font-size: x-large;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-github:hover {
+  background-color: #5a32a3;
 }

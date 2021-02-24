@@ -1,37 +1,39 @@
 import React, { Component } from "react";
 
-import Welcome from "./Welcome/Welcome";
+
+import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
+
+//import Welcome from "./Welcome/Welcome";
 import About from "./About/About.jsx";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
-// import Projects from "./Projects/Projects";
+//import Projects from "./Projects/Projects";
+
+import Welcome1 from "./Welcome1/Welcome1";
 import Projects1 from "./Projects1/Projects1";
+import Footer1 from "./../components/Footer1";
+
+
+
 class Portfolio extends Component {
-  state = {};
+  
+  componentDidMount(){
+    
+  }
+
   render() {
-    return (
-      <div>
-        <div className="main_head1">
-          <Welcome />
-        </div>
-
-        <div className="scrolling-wrapper">
-          <div className="card">
+    
+    const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+    return (    
+          <BindKeyboardSwipeableViews >            
+            <Welcome1 />
             <About />
-          </div>
-          <div className="card">
             <Education />
-          </div>
-
-          <div className="card">
             <Experience />
-          </div>
-
-          <div className="card">
             <Projects1 />
-          </div>
-        </div>
-      </div>
+            <Footer1/>
+          </BindKeyboardSwipeableViews>
     );
   }
 }

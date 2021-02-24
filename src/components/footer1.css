@@ -1,0 +1,362 @@
+.bg-image {
+  background: url("./images/marble1.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+.card {
+  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2),
+    0px 10px 20px rgba(0, 0, 0, 0.4), -10px 0px 20px rgba(0, 0, 0, 0.2),
+    10px 0px 20px rgba(0, 0, 0, 0.4), inset 1px 1px 20px rgba(0, 0, 0, 0.2);
+
+  height: 400px;
+  width: 650px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("./images/texture1.jpg");
+  background-size: cover;
+}
+
+.card:hover {
+  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2),
+    0px 10px 20px rgba(0, 0, 0, 0.4), 10px 0px 50px rgba(0, 0, 0, 0.2),
+    10px 0px 20px rgba(0, 0, 0, 0.4), inset 1px 1px 20px rgba(0, 0, 0, 0.2);
+  transform: perspective(30em) rotateX(2deg) rotateY(3deg) scale(1.05);
+  transform-style: preserve-3d;
+  transition-duration: 1s;
+}
+.tilted {
+  margin: auto;
+  z-index: 3;
+}
+
+.logo {
+  position: relative;
+  background: url("./images/gold_texture.jpeg");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  -webkit-mask-image: url("./images/logo.svg");
+  -webkit-mask-size: cover;
+  mask-image: url("./images/logo.svg");
+  mask-size: cover;
+
+  box-shadow: inset -1px 1px 20px rgba(0, 0, 0, 1);
+}
+
+.logoText {
+  position: relative;
+  background: url("./images/gold_texture.jpeg");
+  background-size: cover;
+  height: 100px;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  -webkit-mask-image: url("./images/logoText4.svg");
+  -webkit-mask-size: cover;
+  mask-image: url("./images/logoText4.svg");
+  mask-size: cover;
+}
+.logoText1 {
+  /* text-transform: uppercase;
+  font-size: 30px;
+  word-spacing: 6px;
+  letter-spacing: 2px; */
+  padding-top: 20px;
+  /* color: transparent; */
+  background: url("./images/gold_texture.jpeg");
+  background-size: cover;
+  -webkit-mask-image: url("./images/logoText.png");
+  -webkit-mask-size: cover;
+  mask-image: url("./images/logoText.png");
+  mask-size: cover;
+  /* -webkit-background-clip: text;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.mail {
+  margin: auto;
+  z-index: 2;
+}
+.col-sm-6 {
+  width: 48vw;
+  height: 100vh;
+  top: 0px !important;
+  display: inline-grid;
+  padding-top: auto;
+  float: left;
+  padding-bottom: auto;
+  border: black 0px solid;
+  border-radius: 23px;
+}
+/***************
+Contact FORM CSS
+****************/
+
+.col-rest {
+  width: 50vw;
+  height: 100vh;
+  top: 0px;
+  display: inline-flex;
+  float: right;
+  padding-top: auto;
+  padding-bottom: auto;
+  border: black 0px solid;
+  border-radius: 23px;
+}
+
+.registration-form {
+  margin-top: 30% !important;
+  margin-bottom: auto !important;
+}
+form button.submit {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #333;
+  line-height: 1em;
+  padding: 0.5em 0.5em;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-radius: 30px;
+}
+form button:hover,
+form button:focus,
+form button:active,
+form button.loading {
+  background: #333;
+  color: #fff;
+  outline: none;
+}
+form button.success {
+  background: #27ae60;
+  border-color: #27ae60;
+  color: #fff;
+}
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form button span.loading-spinner {
+  -webkit-animation: spin 0.5s linear infinite;
+  animation: spin 0.5s linear infinite;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+}
+
+form label {
+  border-bottom: 1px solid #333;
+  display: block;
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+form label.col-one-half {
+  float: left;
+  width: 50%;
+}
+form label.col-one-half:nth-of-type(even) {
+  border-left: 1px solid #333;
+  padding-left: 0.25em;
+}
+form textarea,
+form label input {
+  background: none;
+  border: none;
+  line-height: 1em;
+  font-weight: 300;
+  padding: 0.125em 0.25em;
+  width: 100%;
+}
+form textarea:focus,
+form label input:focus {
+  outline: none;
+}
+form label input:-webkit-autofill {
+  background-color: transparent !important;
+}
+form label span.label-text {
+  display: block;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding-left: 0.5em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+form label.checkbox {
+  border-bottom: 0;
+  text-align: center;
+}
+form label.checkbox input {
+  display: none;
+}
+form label.checkbox span {
+  font-size: 0.5em;
+}
+form label.checkbox span:before {
+  content: "\e157";
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-size: 1.125em;
+  padding-right: 0.25em;
+  position: relative;
+  top: 1px;
+}
+form label.checkbox input:checked + span:before {
+  content: "\e067";
+}
+form label.invalid {
+  border-color: #c0392b !important;
+}
+form label.invalid span.label-text {
+  color: #c0392b;
+}
+form label.password {
+  position: relative;
+}
+form label.password button.toggle-visibility {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75em;
+  line-height: 1em;
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  text-align: center;
+
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+form label.password button.toggle-visibility:hover,
+form label.password button.toggle-visibility:focus,
+form label.password button.toggle-visibility:active {
+  color: #000;
+  outline: none;
+}
+form label.password button.toggle-visibility span {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+  font-family: "Cookie", cursive;
+}
+h1 img {
+  height: auto;
+  margin: 0 auto;
+  max-width: 240px;
+  width: 100%;
+}
+html {
+  font-size: 18px;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+  border-bottom: black 2px dashed;
+  border-radius: 35px;
+}
+
+/* The device with borders */
+.tablet {
+  width: 410px;
+  height: 80vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 16px black solid;
+  padding: 15px;
+  display: ;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  background: url("./images/phonewall.jpeg");
+  background-size: 100% 100%;
+  -webkit-box-shadow: 44px 25px 65px 15px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 44px 25px 65px 15px rgba(0, 0, 0, 0.24);
+  box-shadow: 44px 25px 60px 5px rgba(0, 0, 0, 0.6);
+  transition-duration: 0.5s;
+}
+
+.tablet:hover,
+.tablet:focus-within {
+  box-shadow: 44px 25px 80px 20px rgba(0, 0, 0, 0.6);
+  transform: perspective(30em) translateX(-50px) rotateY(-3deg) scale(1.1);
+  
+  
+  transition-duration: 0.8s;
+}
+
+/* The horizontal line on the top of the device */
+.tablet:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.tablet:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.tablet .content {
+  width: 768px;
+  height: 1024px;
+  background: white;
+  margin: -1px;
+}

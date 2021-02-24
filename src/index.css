@@ -2,19 +2,26 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  background: linear-gradient(
-    90deg,
-    #c2185b,
-    #e30d3b,
-    #da2f04d8,
-    #c2185b,
-    #e30d3b
-  );
-  background-size: 400% 400%;
+  height: 100vh !important;
+  overflow: hidden;
   z-index: -1;
   -webkit-animation: gradient 20s ease infinite;
   -moz-animation: gradient 20s ease infinite;
   animation: gradient 20s ease infinite;
+  scroll-behavior: ;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 html {

@@ -12,6 +12,7 @@ const leny = ["80vh", "80vh", "80vh", "80vh"];
 const font = ["7vh", "7vh", "6vh", "7vh"];
 
 const skill = [
+  "Hello \n My name is Sagar Khatri",
   "Python Developer",
   "Java Developer",
   "Machine Learning Enthusiast",

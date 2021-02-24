@@ -1,0 +1,151 @@
+.container {
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3em;
+  background-color: transparent red;
+}
+
+.menu {
+  max-width: 100%;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 2rem;
+  background: transparent green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.logo {
+}
+
+.hamburger-menu {
+  height: 4em;
+  width: 2.5em;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 0s;
+  z-index: 100 !important;
+}
+
+.bar {
+  width: 1.8rem;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, red, orange);
+  transition: 0.5s;
+  position: relative;
+}
+.bar:before,
+.bar:after {
+  content: "";
+
+  position: absolute;
+  width: 1.5rem;
+  height: inherit;
+  background: linear-gradient(135deg, red, orange);
+  transition: 0.5s;
+  transform: translateX(2px);
+}
+.bar:before {
+  transform: translateX(-11px) translateY(-9px);
+}
+.bar:after {
+  transform: translateX(-11px) translateY(9px);
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 5;
+  background-color: white;
+  overflow: hidden;
+}
+
+.container .active .bar {
+  transform: rotate(0deg);
+  background: transparent;
+}
+.container .active .bar:before {
+  transform: rotate(-45deg);
+  background-color: transparent;
+}
+.container .active .bar:after {
+  transform: rotate(45deg);
+  background-color: transparent;
+}
+
+.links {
+  position: fixed;
+  width: 20%;
+  right: 0;
+  top: 10vh;
+  height: 90vh;
+  z-index: -5 !important;
+  background: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 0) -10%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border: 0px white solid;
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+.menu_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20vh;
+  background-color: transparent;
+  height: 80vh; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto;
+  border: 0px white solid;
+  color: white !important;
+  z-index: 2 !important;
+}
+
+.menu_li {
+  color: white;
+  left: 10px;
+  position: relative;
+  border: 0px white solid;
+  text-transform: uppercase;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2 !important;
+  text-decoration: none;
+  transition: .2s;
+}
+.menu_li a {
+  text-decoration: none;
+  text-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+}
+.menu_li:hover {
+  color: white;
+  left: 10px;
+  position: relative;
+  border: 0px white solid;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  font-style: italic;
+  letter-spacing: 2px;
+}
