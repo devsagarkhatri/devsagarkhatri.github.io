@@ -11,7 +11,9 @@
   position: relative;
 }
 .bg-chrome {
-  background-color: rgb(60, 64, 69); /*My own Dark shade*/
+  /* My own Dark shade below */
+  background-color: rgb(60, 64, 69); 
+  
 }
 .backTextEd {
   margin-left: 1%;

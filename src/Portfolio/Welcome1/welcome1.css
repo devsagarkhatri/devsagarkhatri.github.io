@@ -1,7 +1,7 @@
 .welcome1 {
   /* background: linear-gradient(rgb(240, 172, 45), rgb(246, 100, 28)) !important;
    */
-  background: url("../../components/images/bg_red_wall.jpg");
+  background: url("../../components/images/bg_red_wall.png");
   background-size: 106vw 108vh;
   position: absolute;
   color: white !important;

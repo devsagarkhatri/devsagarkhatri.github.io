@@ -21,7 +21,7 @@ class About extends Component {
             <div className="heading">About</div>
             <div className="section">
               I'm currently pursuing my Masters degree in Computer Applications
-              from Madan Mohan Malaviya Unibersity of Technology, Gorakhpur. I'm
+              from Madan Mohan Malaviya University of Technology, Gorakhpur. I'm
               keen about Technology, hence is easily motivated to develop
               projects in various fields to try and learn.
             </div>
