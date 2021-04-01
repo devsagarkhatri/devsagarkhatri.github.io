@@ -104,6 +104,8 @@
   text-align: left;
 }
 
+
+
 .menu_ul {
   list-style-type: none;
   margin: 0;
@@ -116,6 +118,10 @@
   border: 0px white solid;
   color: white !important;
   z-index: 2 !important;
+  
+}
+.hide{
+  visibility: hidden;
 }
 
 .menu_li {

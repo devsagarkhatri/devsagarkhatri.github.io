@@ -84,8 +84,9 @@
 .gridPic {
   height: 4vw;
   width: auto;
-  margin: 10px;
-  margin-right: 15px;
+  margin: 10px !important;
+  padding-right: 15px !important;
+  border-right: 15px transparent solid;
   filter: brightness(0.9);
 }
 .gridPic:hover {

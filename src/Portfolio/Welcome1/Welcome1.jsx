@@ -52,9 +52,7 @@ class Welcome extends Component {
   render() {
       return (
         <React.Fragment>
-              <div className="welcome1"
-              >
-            </div>                        
+              <div className="welcome1"></div>                        
                 <div
                     className="rect font-effect-emboss"
                     style={{

@@ -29,6 +29,8 @@
   text-align: center;
   transform-style: preserve-3d;
   transition: 1s;
+  overflow-y: hidden !important;
+  max-height: 100vh;
 }
 
 .stick {
@@ -179,24 +181,30 @@ li a:hover:not(.active) {
 }
 .main {
   z-index: 50;
+  animation: main-animation-exit 1s ease;
+  transition: 1s;
 }
 
 .mainclick {
   height: 100vh !important;
-  animation: main-animation 0.5s ease;
+  animation: main-animation 1s ease;
   transform: perspective(2000px) scale(0.6) translateX(-150px) rotateY(20deg);
   transform-style: preserve-3d !important;
   transition: 1s;
   perspective-origin: center;
-  box-shadow: -30px 10px 20px rgb(0, 0, 10);
+  box-shadow: -30px 10px 25px rgb(0, 0, 10);
 }
 .mainclick:hover {
   animation: main-animation 0.5s ease;
   transform: perspective(2000px) scale(0.61) translateX(-110px) rotateY(22deg);
   transform-style: preserve-3d !important;
-  box-shadow: -40px 5px 55px rgba(0, 0, 0, 1);
+  box-shadow: -70px 50px 10px -20px rgba(10, 20, 20,.2),
+              
+              -60px 15px 55px -15px rgba(10, 20, 20,.5),
+              -40px 5px 55px rgba(0, 0, 0, 1);
   perspective-origin: left;
   cursor: pointer;
+  
 }
 
 @keyframes main-animation {
@@ -204,6 +212,16 @@ li a:hover:not(.active) {
     transform: translate(0);
   }
   to {
-    transform: perspective(1500px) scale(0.5) translateX(-310px) rotateY(15deg);
+    transform: perspective(2000px) scale(0.6) translateX(-150px) rotateY(20deg);
+  }
+}
+
+@keyframes main-animation-exit {
+  from {
+    transform: perspective(2000px) scale(0.6) translateX(-150px) rotateY(20deg);
+  }
+  
+  to{
+    transform: translate(0);
   }
 }

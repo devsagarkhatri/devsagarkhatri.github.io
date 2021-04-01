@@ -3,7 +3,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh !important;
-  overflow: hidden;
+  overflow: hidden !important;
   z-index: -1;
   -webkit-animation: gradient 20s ease infinite;
   -moz-animation: gradient 20s ease infinite;

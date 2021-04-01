@@ -21,7 +21,7 @@ class Projects1 extends Component {
   componentDidMount() {
     //const categories = [{ name: "All Categories" }, ...getCategory()];
     this.setState({ projects: getProjects(), category: getCategory() });
-    console.log(...getCategory());
+    // console.log(...getCategory());
   }
 
   handlePageChange = (page) => {
@@ -36,7 +36,7 @@ class Projects1 extends Component {
     const { length: count } = this.state.projects;
 
     const { pageSize, currentPage, currentCategory } = this.state;
-    console.log(currentCategory);
+    // console.log(currentCategory);
 
     if (count === 0)
       return (

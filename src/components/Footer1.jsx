@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./footer1.css";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
+
 // import logo from "./images/Picture3.png";
 // import { Link } from 'react-router-dom';
 class Footer1 extends Component {
@@ -15,14 +16,37 @@ class Footer1 extends Component {
             <div className="logo"></div>
             <div className="logoText"></div>
           </div>
-          <div className="card mail">
-            <div className="left">
-              <div className="logoText"></div>
-              <div className="role-text">Software Developer</div>
+          <div className="card2 mail">
+          {/* <br/><h3><i><u style={{textUnderlineOffset:"4px"}}>Sagar  Khatri</u></i></h3>             */}
+            <div className="left">              
+              <div className="role-Text" style={{textAlign:"left",float:"left"}}>
+                <div className="logoText" ></div>
+              </div>
+              <br/><br/><br/><br/><br/>
+              <div className="role-text" style={{float:"left",paddingTop:"0px",marginTop:"-5px"}}>
+                <b>Software Developer</b><br/>
+                <i>dev.sagarkhatri@gmail.com</i><br/>  
+              </div>
             </div>
             <div className="right">
-              <div className=""></div>
-              <div className="role-text">Software Developer</div>
+              
+              <div className="role-text">
+                
+                <b>Address</b><br/>
+                Opp. Sigra Stadium,<br/>
+                Sigra, Varanasi,<br/>
+                Uttar Pradesh, India
+              </div>
+              <div className="role-text" style={{textAlign:"center",bottom:"0px",background:"transparent",flexFlow:"column"}}>
+                <u>Social Links :</u>
+                <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

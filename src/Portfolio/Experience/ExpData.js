@@ -4,9 +4,9 @@ import cnlogo from "./../../components/images/cnlogo.png";
 const expdata = [
   {
     key: 1,
-    role: "Teaching Assistant",
+    role: "Intern",
     company: "Coding Ninjas India",
-    tenure: " July 2020 - Present",
+    tenure: " July 2020 - November 2020",
     desc:
       "My primary work here was to solve doubts raised by students. I had to understand their perspective to get where they are stuck in the questions. Apart from this, I had to mentor 5 students and encourage them to complete their exercises on time.",
     logo: cnlogo,
