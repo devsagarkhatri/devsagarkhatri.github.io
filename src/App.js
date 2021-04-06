@@ -25,6 +25,7 @@ import Preloader from "./Portfolio/Preloader/Preloader";
 
 
 class App extends Component {
+<<<<<<< HEAD
   constructor(props){
     super(props)
     this.slideChange=this.slideChange.bind(this);
@@ -36,6 +37,12 @@ class App extends Component {
     active:false,
     slide:0,
     isBusy:true
+=======
+  
+  state = {   
+    active:false,
+    slide:1
+>>>>>>> 4b34957108c7f3f8eee2672154432b52c303d285
   };
   handleToggle(){
       this.setState({ active: !this.state.active })
@@ -43,6 +50,7 @@ class App extends Component {
   componentWillUnmount(){
 
   }
+<<<<<<< HEAD
   componentDidMount(){
     if(this.state.isBusy){
       setInterval(() => {
@@ -78,6 +86,17 @@ class App extends Component {
         <div className={this.state.active===true ? "mainclick" : "main"}>
         <BindKeyboardSwipeableViews   enableMouseEvents={true}>            
             <Welcome1 />            
+=======
+
+  render() {    
+    const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+    return (
+      <div className="App">       
+        <div className={this.state.active===true ? "mainclick" : "main"}>
+        <BindKeyboardSwipeableViews >
+                 
+            <Welcome1 />
+>>>>>>> 4b34957108c7f3f8eee2672154432b52c303d285
             <About />
             <Education />
             <Experience />
@@ -96,12 +115,21 @@ class App extends Component {
                             <div className="bar"></div>
                                 <div className={this.state.active===true ? "links" : "links hide"}>                                
                                     <ul className={this.state.active===true ? "menu_ul" : "menu_ul hide"}>
+<<<<<<< HEAD
                                              <li className="menu_li"><a href="#home" onClick={()=>this.slideChange(0)}>Home</a></li>
                                         <br/><li className="menu_li"><a href="#about" onClick={()=>this.slideChange(1)}>About</a></li>
                                         <br/><li className="menu_li"><a href="#education" onClick={()=>this.slideChange(2)}>Education</a></li>
                                         <br/><li className="menu_li"><a href="#experience" onClick={()=>this.slideChange(3)}>Experience</a></li>
                                         <br/><li className="menu_li"><a href="#projects" onClick={()=>this.slideChange(4)}>Projects</a></li>
                                         <br/><li className="menu_li"><a href="#contact" onClick={()=>this.slideChange(5)}>Contact</a></li>
+=======
+                                            <li className="menu_li"><a className="" href="#home">Home</a></li>
+                                        <br/><li className="menu_li"><a href="#abut">About</a></li>
+                                        <br/><li className="menu_li"><a href="#education">Education</a></li>
+                                        <br/><li className="menu_li"><a href="#experience">Experience</a></li>
+                                        <br/><li className="menu_li"><a href="#projects">Projects</a></li>
+                                        <br/><li className="menu_li"><a href="#contact">Contact</a></li>
+>>>>>>> 4b34957108c7f3f8eee2672154432b52c303d285
                                     </ul>                          
                                 </div>    
                         </div>
