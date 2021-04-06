@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./footer1.css";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
-
+import './../../node_modules/font-awesome/css/font-awesome.min.css'; 
 // import logo from "./images/Picture3.png";
 // import { Link } from 'react-router-dom';
 class Footer1 extends Component {
@@ -23,7 +23,7 @@ class Footer1 extends Component {
                 <div className="logoText" ></div>
               </div>
               <br/><br/><br/><br/><br/>
-              <div className="role-text" style={{float:"left",paddingTop:"0px",marginTop:"-5px"}}>
+              <div className="role-text" style={{float:"left",paddingTop:"0px",marginTop:"-20px"}}>
                 <b>Software Developer</b><br/>
                 <i>dev.sagarkhatri@gmail.com</i><br/>  
               </div>
@@ -35,17 +35,17 @@ class Footer1 extends Component {
                 <b>Address</b><br/>
                 Opp. Sigra Stadium,<br/>
                 Sigra, Varanasi,<br/>
-                Uttar Pradesh, India
+                Uttar Pradesh, India.
               </div>
               <div className="role-text" style={{textAlign:"center",bottom:"0px",background:"transparent",flexFlow:"column"}}>
-                <u>Social Links :</u>
-                <div class="rounded-social-buttons">
-                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
+                {/* <u>Social Links :</u> */}
+                <br/>
+                <ul className="social">
+                  <li><a href="https://www.facebook.com"><span className="fa fa-facebook"></span></a></li>                  
+                  <li><a href="https://www.codepen.io" target="_blank"><span className="fa fa-codepen"></span></a></li>
+                  <li><a href="https://www.github.com" target="_blank"><span className="fa fa-github"></span></a></li>                  
+                  <li><a href="https://www.linkedin.com" target="_blank"><span className="fa fa-linkedin"></span></a></li>                  
+                </ul>
               </div>
             </div>
           </div>

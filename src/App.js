@@ -25,11 +25,11 @@ import Preloader from "./Portfolio/Preloader/Preloader";
 
 
 class App extends Component {
+
+
   constructor(props){
     super(props)
-    this.slideChange=this.slideChange.bind(this);
-    
-    
+    this.slideChange=this.slideChange.bind(this);   
   }
   
   state = {   
@@ -37,18 +37,21 @@ class App extends Component {
     slide:0,
     isBusy:true
   };
+
   handleToggle(){
       this.setState({ active: !this.state.active })
-    } 
+  } 
+  
   componentWillUnmount(){
 
   }
+  
   componentDidMount(){
-    if(this.state.isBusy){
-      setInterval(() => {
-        this.setState({isBusy: false})
-      }, 6000)
-    }
+    // if(this.state.isBusy){
+    //   setInterval(() => {
+    //     this.setState({isBusy: false})
+    //   }, 6000)
+    // }
   }
 
   slideChange(data){
@@ -63,18 +66,17 @@ class App extends Component {
 
   render() {    
     
-    if(this.state.isBusy){
-      return(
-        <div className="App">          
-            <Preloader/>          
-        </div>  
-      );
-    }
+    // if(this.state.isBusy){
+    //   return(
+    //     <div className="App">          
+    //         <Preloader/>          
+    //     </div>  
+    //   );
+    // }
 
     const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
     return (
-      <div className="App">     
-          
+      <div className="App">               
         <div className={this.state.active===true ? "mainclick" : "main"}>
         <BindKeyboardSwipeableViews   enableMouseEvents={true}>            
             <Welcome1 />            
