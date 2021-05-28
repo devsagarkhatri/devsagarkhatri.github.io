@@ -1,5 +1,5 @@
 .bg-image {
-  background: url("./images/marble1.jpg");
+  background: url("./../images/marble1.jpg");
   background-size: cover;
   position: absolute;
   height: 100vh;
@@ -22,7 +22,7 @@
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  background: url("./images/texture1.jpg");
+  background: url("./../images/texture1.jpg");
   background-size: cover;
   transform: translateY(20px);
 }
@@ -51,7 +51,7 @@
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  background: url("./images/texture1.jpg");
+  background: url("./../images/texture1.jpg");
   background-size: cover;
 }
 
@@ -73,7 +73,7 @@
 
 .logo {
   position: relative;
-  background: url("./images/gold_texture.jpeg");
+  background: url("./../images/gold_texture.jpeg");
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -81,9 +81,9 @@
   margin-right: auto;
   margin-top: 20px;
 
-  -webkit-mask-image: url("./images/logo.svg");
+  -webkit-mask-image: url("./../images/logo.svg");
   -webkit-mask-size: cover;
-  mask-image: url("./images/logo.svg");
+  mask-image: url("./../images/logo.svg");
   mask-size: cover;
 
   box-shadow: inset -1px 1px 20px rgba(0, 0, 0, 1);
@@ -91,7 +91,7 @@
 
 .logoText {
   position: relative;
-  background: url("./images/gold_texture.jpeg");
+  background: url("./../images/gold_texture.jpeg");
   background-size: cover;
   height: 100px;
   width: 210px;
@@ -99,9 +99,9 @@
   margin-right: auto;
   margin-top: 20px;
 
-  -webkit-mask-image: url("./images/logoText4.svg");
+  -webkit-mask-image: url("./../images/logoText4.svg");
   -webkit-mask-size: cover;
-  mask-image: url("./images/logoText4.svg");
+  mask-image: url("./../images/logoText4.svg");
   mask-size: cover;
 }
 .logoText1 {
@@ -111,11 +111,11 @@
   letter-spacing: 2px; */
   padding-top: 20px;
   /* color: transparent; */
-  background: url("./images/gold_texture.jpeg");
+  background: url("./../images/gold_texture.jpeg");
   background-size: cover;
-  -webkit-mask-image: url("./images/logoText.png");
+  -webkit-mask-image: url("./../images/logoText.png");
   -webkit-mask-size: cover;
-  mask-image: url("./images/logoText.png");
+  mask-image: url("./../images/logoText.png");
   mask-size: cover;
   /* -webkit-background-clip: text;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1); */
@@ -151,13 +151,13 @@
   top:0;
   left:0;
   position: relative;
-  background: url("./images/gold_texture.jpeg");
+  background: url("./../images/gold_texture.jpeg");
   background-size: contain;
   height: 100px;
   width: 180px;
-  -webkit-mask-image: url("./images/logoText4.svg");
+  -webkit-mask-image: url("./../images/logoText4.svg");
   -webkit-mask-size: contain;
-  mask-image: url("./images/logoText4.svg");
+  mask-image: url("./../images/logoText4.svg");
   mask-size: contain;
 }
   
@@ -376,7 +376,7 @@ html {
   border-top-width: 60px;
   border-bottom-width: 60px;
   border-radius: 36px;
-  background: url("./images/phonewall.jpeg");
+  background: url("./../images/phonewall.jpeg");
   background-size: 100% 100%;
   -webkit-box-shadow: 44px 25px 65px 15px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 44px 25px 65px 15px rgba(0, 0, 0, 0.24);

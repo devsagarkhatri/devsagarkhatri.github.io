@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import Pagination from "./Pagination";
-//import ListGroup from "./listGroup";
+import ListGroup from "./listGroup";
 import "./Projects1.css";
 import "./../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import { getProjects } from "./ProjectData";
@@ -12,16 +12,19 @@ import { Paginate } from "./paginate";
 class Projects1 extends Component {
   state = {
     projects: [...getProjects()],
-    category: [],
+    category: [{ key: 0, technlogy: "All", logo: "" }, ...getCategory()],
     currentPage: 1,
-    currentCategory: [],
+    currentCategory: [{ key: 0, technplogy: "All", logo: "" }],
     pageSize: 4,
   };
 
   componentDidMount() {
-    //const categories = [{ name: "All Categories" }, ...getCategory()];
-    this.setState({ projects: getProjects(), category: getCategory() });
-    // console.log(...getCategory());
+    const categories = [
+      { key: 0, technology: "All", logo: "" },
+      ...getCategory(),
+    ];
+    this.setState({ projects: getProjects(), category: categories });
+    // console.log("category => " + this.state.category);
   }
 
   handlePageChange = (page) => {
@@ -29,19 +32,25 @@ class Projects1 extends Component {
   };
 
   handleCategorySelect = (cat) => {
-    this.setState({ currentCategory: cat, currentPage: 1 }); //ye kyun kiye currentPage: 1
+    if (cat.technology !== "All") {
+      var projects = [...getProjects()].filter(
+        (x) => x.category.name === cat.technology
+      );
+    } else {
+      var projects = [...getProjects()];
+    }
+    this.setState({ currentCategory: cat, projects: projects, currentPage: 1 }); //ye kyun kiye currentPage: 1
   };
 
   render() {
     const { length: count } = this.state.projects;
-
     const { pageSize, currentPage, currentCategory } = this.state;
     // console.log(currentCategory);
 
     if (count === 0)
       return (
         <React.Fragment>
-          <p>This Module Is Under Construction.</p>
+          <i className="text-white">This Module Is Under Construction.</i>
         </React.Fragment>
       );
 
@@ -56,29 +65,27 @@ class Projects1 extends Component {
               Projects
             </div>
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div className="row" style={{ width: "90vw" }}>
-              <div className="col-md-3">
-                {/* <ListGroup
+              <div className="col-md-2">
+                <ListGroup
                   items={this.state.category}
                   selectedItem={currentCategory.name}
                   onItemSelect={this.handleCategorySelect}
-                /> */}
+                />
               </div>
-              <div className="col-md-9">
+              <div className="col-md-7 justify-text-center">
                 <ProjectCard projects={projectRow} />
+                <br />
+                <div className="row justify-content-center">
+                  <Pagination
+                    itemCount={count}
+                    pageSize={pageSize}
+                    currentPage={currentPage}
+                    onPageChange={this.handlePageChange}
+                  />
+                </div>
 
                 <br />
-                <Pagination
-                  itemCount={count}
-                  pageSize={pageSize}
-                  currentPage={currentPage}
-                  onPageChange={this.handlePageChange}
-                />
               </div>
             </div>
           </div>

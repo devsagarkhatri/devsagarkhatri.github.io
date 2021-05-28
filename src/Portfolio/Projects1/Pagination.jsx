@@ -11,7 +11,7 @@ const Pagination = (props) => {
 
   return (
     <nav>
-      <ul className="pagination bg-transparent">
+      <ul className="pagination pagination-sm bg-transparent">
         {pages.map((page) => (
           <li
             key={page}

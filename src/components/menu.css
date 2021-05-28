@@ -104,8 +104,6 @@
   text-align: left;
 }
 
-
-
 .menu_ul {
   list-style-type: none;
   margin: 0;
@@ -118,9 +116,8 @@
   border: 0px white solid;
   color: white !important;
   z-index: 2 !important;
-  
 }
-.hide{
+.hide {
   visibility: hidden;
 }
 
@@ -136,7 +133,7 @@
   height: auto;
   z-index: 2 !important;
   text-decoration: none;
-  transition: .2s;
+  transition: 0.2s;
 }
 .menu_li a {
   text-decoration: none;

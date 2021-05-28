@@ -45,8 +45,8 @@
   }
 }
 .bg-experience {
-  background: url("./../../components/images/experience.svg") white;
-  background-size: contain;
+  background: url("./../../components/images/experience.jpg");
+  background-size: cover;
 
   background-repeat: no-repeat;
   background-position: center center;
