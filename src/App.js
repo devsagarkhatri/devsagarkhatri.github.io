@@ -32,9 +32,9 @@ class App extends Component {
 
   componentDidMount() {
     if (this.state.ismsg) {
-      cogoToast.loading("Use ⬅️ and ➡️ keys to navigate!",{        
+      cogoToast.loading("Use ⬅️ and ➡️ keys to navigate!", {
         hideAfter: 5,
-        position: "top-center",        
+        position: "top-center",
       });
       this.setState({ ismsg: false });
     }
@@ -49,7 +49,7 @@ class App extends Component {
     var s = indexLatest;
     this.setState({ slide: s });
     console.log(s);
-  } 
+  }
 
   render() {
     const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
