@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import "./components/menu.css";
 
+import cogoToast from "cogo-toast";
 import SwipeableViews from "react-swipeable-views";
 import { bindKeyboard } from "react-swipeable-views-utils";
 
@@ -20,9 +21,9 @@ class App extends Component {
   }
 
   state = {
-    active: true,
-    slide: 1,
-    isBusy: false,
+    active: false,
+    slide: 0,
+    ismsg: true,
   };
 
   handleToggle() {
@@ -30,30 +31,38 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // if(this.state.isBusy){
-    //   setInterval(() => {
-    //     this.setState({isBusy: false})
-    //   }, 6000)
-    // }
+    if (this.state.ismsg) {
+      cogoToast.loading("Use ⬅️ and ➡️ keys to navigate!",{        
+        hideAfter: 5,
+        position: "top-center",        
+      });
+      this.setState({ ismsg: false });
+    }
   }
 
   slideChange(data) {
-    console.log("data : ", data);
-    console.log("slide: ", this.state.slide);
     this.setState({ slide: data });
+    console.log("slide: ", this.state.slide);
   }
 
-  handleIndexChange(event) {
-    var s = event.indexLatest;
+  handleIndexChange(index, indexLatest) {
+    var s = indexLatest;
     this.setState({ slide: s });
-  }
+    console.log(s);
+  } 
 
   render() {
     const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
     return (
       <div className="App">
         <div className={this.state.active === true ? "mainclick" : "main"}>
-          <BindKeyboardSwipeableViews enableMouseEvents={true}>
+          <BindKeyboardSwipeableViews
+            enableMouseEvents={true}
+            index={this.state.slide}
+            onChangeIndex={(index, indexLatest, meta) => {
+              this.setState({ slide: index });
+            }}
+          >
             <Welcome1 />
             <About />
             <Education />
@@ -67,12 +76,12 @@ class App extends Component {
             <div className="menu">
               <img src={logo} height="25px" alt={""} />
               <div
+                onClick={() => this.handleToggle()}
                 className={
                   this.state.active === true
                     ? "hamburger-menu active"
                     : "hamburger-menu"
                 }
-                onClick={() => this.handleToggle()}
               >
                 <div className="bar"></div>
                 <div
@@ -85,28 +94,67 @@ class App extends Component {
                       this.state.active === true ? "menu_ul" : "menu_ul hide"
                     }
                   >
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("0") });
+                      }}
+                    >
                       <a href="#home">Home</a>
                     </li>
                     <br />
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("1") });
+                      }}
+                    >
                       <a href="#about">About</a>
                     </li>
                     <br />
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("2") });
+                      }}
+                    >
                       <a href="#education">Education</a>
                     </li>
                     <br />
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("3") });
+                      }}
+                    >
                       <a href="#experience">Experience</a>
                     </li>
                     <br />
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("4") });
+                      }}
+                    >
                       <a href="#projects">Projects</a>
                     </li>
                     <br />
-                    <li className="menu_li">
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: parseInt("5") });
+                      }}
+                    >
                       <a href="#contact">Contact</a>
+                    </li>
+                    <br />
+                    <li
+                      className="menu_li"
+                      onClick={(event) => {
+                        this.setState({ slide: this.state.slide });
+                      }}
+                    >
+                      <a href="#">Close</a>
                     </li>
                   </ul>
                 </div>

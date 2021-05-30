@@ -43,8 +43,8 @@ class Footer1 extends Component {
                 <ul className="social">
                   <li><a href="https://www.facebook.com"><span className="fa fa-facebook"></span></a></li>                  
                   <li><a href="https://www.codepen.io" target="_blank"><span className="fa fa-codepen"></span></a></li>
-                  <li><a href="https://www.github.com" target="_blank"><span className="fa fa-github"></span></a></li>                  
-                  <li><a href="https://www.linkedin.com" target="_blank"><span className="fa fa-linkedin"></span></a></li>                  
+                  <li><a href="https://github.com/devsagarkhatri" target="_blank"><span className="fa fa-github"></span></a></li>                  
+                  <li><a href="https://www.linkedin.com/in/sagarkhatri/" target="_blank"><span className="fa fa-linkedin"></span></a></li>                  
                 </ul>
               </div>
             </div>

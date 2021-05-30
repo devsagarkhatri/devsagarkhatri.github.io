@@ -43,7 +43,6 @@
   background-repeat: no-repeat;
 
   background-position: center;
-  background-clip: ;
   background-size: cover;
   enable-background: accumulate;
 }
@@ -106,10 +105,6 @@
   top: 0px;
 }
 
-.menu_bg {
-}
-.menu_bg:focus {
-}
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -126,7 +121,7 @@
 }
 
 .blur {
-  filter: ;
+  filter: blur(0.5);
   z-index: -1;
 }
 
@@ -198,13 +193,10 @@ li a:hover:not(.active) {
   animation: main-animation 0.5s ease;
   transform: perspective(2000px) scale(0.61) translateX(-110px) rotateY(22deg);
   transform-style: preserve-3d !important;
-  box-shadow: -70px 50px 10px -20px rgba(10, 20, 20,.2),
-              
-              -60px 15px 55px -15px rgba(10, 20, 20,.5),
-              -40px 5px 55px rgba(0, 0, 0, 1);
+  box-shadow: -70px 50px 10px -20px rgba(10, 20, 20, 0.2),
+    -60px 15px 55px -15px rgba(10, 20, 20, 0.5), -40px 5px 55px rgba(0, 0, 0, 1);
   perspective-origin: left;
   cursor: pointer;
-  
 }
 
 @keyframes main-animation {
@@ -220,8 +212,8 @@ li a:hover:not(.active) {
   from {
     transform: perspective(2000px) scale(0.6) translateX(-150px) rotateY(20deg);
   }
-  
-  to{
+
+  to {
     transform: translate(0);
   }
 }

@@ -13,7 +13,7 @@ import todo from "./../../components/images/todo1.jpg";
 import chart from "./../../components/images/chart2.jpg";
 import rapidrender from "./../../components/images/rapidrender.png";
 import rapidresume from "./../../components/images/resume1.jpg";
-
+import portfolio from "./../../components/images/portfolio.jpg";
 const projectCategory = [
   {
     key: 1,
@@ -35,18 +35,18 @@ const projectCategory = [
 const projectData = [
   {
     id: 1,
-    category: { key: 1, name: "Java" },
-    name: "TicTacToe",
+    category: { key: 2, name: "React" },
+    name: "This Portfolio Website",
     desc: "",
-    link: "",
-    pic: tictactoe,
+    link: "https://github.com/devsagarkhatri/devsagarkhatri.github.io",
+    pic: portfolio,
   },
   {
     id: 2,
     category: { key: 2, name: "React" },
     name: "Movies Database",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/my-app/",
     pic: movie,
   },
   {
@@ -54,7 +54,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Merchandise Kart",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/my-app/",
     pic: merchandise,
   },
   {
@@ -87,7 +87,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Stone-Paper-Scissors",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/stone-paper-scissors/",
     pic: SPS,
   },
   {
@@ -95,7 +95,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "To-Do List",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/my-app/",
     pic: todo,
   },
 
@@ -104,7 +104,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Play with Charts",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/my-app/",
     pic: chart,
   },
   {
@@ -112,7 +112,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Weather",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/weather/",
     pic: weather,
   },
   {
@@ -120,7 +120,7 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Rapid Render",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/rapidrender",
     pic: rapidrender,
   },
   {
@@ -128,8 +128,16 @@ const projectData = [
     category: { key: 2, name: "React" },
     name: "Rapid Resume",
     desc: "",
-    link: "",
+    link: "https://devsagarkhatri.github.io/rapidresume/",
     pic: rapidresume,
+  },
+  {
+    id: 13,
+    category: { key: 1, name: "Java" },
+    name: "TicTacToe",
+    desc: "",
+    link: "",
+    pic: tictactoe,
   },
 ];
 

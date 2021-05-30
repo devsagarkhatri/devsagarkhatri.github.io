@@ -6,6 +6,7 @@
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.2.0",
     "bootstrap": "^4.5.2",
+    "cogo-toast": "^4.2.3",
     "font-awesome": "^4.7.0",
     "jquery": "^1.12.4",
     "loaders.css": "^0.1.2",

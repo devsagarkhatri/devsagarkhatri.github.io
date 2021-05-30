@@ -31,10 +31,10 @@
   box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2),
     0px 10px 20px rgba(0, 0, 0, 0.4), 10px 0px 50px rgba(0, 0, 0, 0.2),
     10px 0px 20px rgba(0, 0, 0, 0.4), inset 1px 1px 20px rgba(0, 0, 0, 0.2);
-  transform: perspective(30em) rotateX(2deg) rotateY(3deg)  rotateZ(-2deg) scale(1.05);
+  transform: perspective(30em) rotateX(2deg) rotateY(3deg) rotateZ(-2deg)
+    scale(1.05);
   transform-style: preserve-3d;
   transition-duration: 1s;
-  
 }
 
 .card2 {
@@ -45,7 +45,7 @@
   height: 400px;
   width: 650px;
   border-radius: 15px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
@@ -59,9 +59,9 @@
   box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2),
     0px 10px 20px rgba(0, 0, 0, 0.4), 10px 0px 50px rgba(0, 0, 0, 0.2),
     10px 0px 20px rgba(0, 0, 0, 0.4), inset 1px 1px 20px rgba(0, 0, 0, 0.2);
-  transform: perspective(20em) rotateX(2deg) rotateY(-2deg) rotateZ(-2deg) scale(1.05);
+  transform: perspective(20em) rotateX(2deg) rotateY(-2deg) rotateZ(-2deg)
+    scale(1.05);
   transform-style: preserve-3d;
-  
 
   transition-duration: 1s;
 }
@@ -123,33 +123,32 @@
 
 .mail {
   align-items: stretch;
-  
+
   /* border: whitesmoke 2px solid; */
 }
 
-.left{
-  
-  color:whitesmoke;
+.left {
+  color: whitesmoke;
   /* border: whitesmoke 2px solid; */
-  padding-left: 16px ;
-  padding-right:16px ;
+  padding-left: 16px;
+  padding-right: 16px;
   text-align: left;
   max-width: 100%;
-  display:flow-root;
+  display: flow-root;
 }
-.right{
+.right {
   max-width: 100%;
   text-align: right;
-  color:whitesmoke;
+  color: whitesmoke;
   /* border: whitesmoke 2px solid; */
 
-  padding-left: 16px ;
-  padding-right:16px ;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .left > .logoText {
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   position: relative;
   background: url("./../images/gold_texture.jpeg");
   background-size: contain;
@@ -160,7 +159,7 @@
   mask-image: url("./../images/logoText4.svg");
   mask-size: contain;
 }
-  
+
 .col-sm-6 {
   width: 48vw;
   height: 100vh;
@@ -372,10 +371,10 @@ html {
   position: relative;
   border: 16px black solid;
   padding: 15px;
- 
+
   border-top-width: 60px;
   border-bottom-width: 60px;
-  border-radius: 36px;
+  border-radius: 36px !important;
   background: url("./../images/phonewall.jpeg");
   background-size: 100% 100%;
   -webkit-box-shadow: 44px 25px 65px 15px rgba(0, 0, 0, 0.24);
@@ -388,8 +387,7 @@ html {
 .tablet:focus-within {
   box-shadow: 44px 25px 80px 20px rgba(0, 0, 0, 0.6);
   transform: perspective(30em) translateX(-50px) rotateY(-3deg) scale(1.1);
-  
-  
+
   transition-duration: 0.8s;
 }
 
@@ -430,10 +428,10 @@ html {
 }
 
 /* Footer Icons social media */
-.social, .social:hover{
+.social,
+.social:hover {
   min-width: 620px;
   border: 0px white solid;
-  
 }
 
 .social li {
@@ -443,7 +441,7 @@ html {
   height: 60px;
   width: 60px;
   cursor: pointer;
-  background:transparent;
+  background: transparent;
   text-align: center;
   padding-top: 8px;
   margin-right: 20px;
@@ -454,12 +452,10 @@ html {
   margin-right: 0;
 }
 .social li:hover {
-  
-  background:radial-gradient(circle,goldenrod, transparent);
-  
+  background: radial-gradient(circle, goldenrod, transparent);
 }
 .social li:hover .fa {
-  color: white; 
+  color: white;
   transition: 1s;
 }
 

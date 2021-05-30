@@ -13,7 +13,6 @@
 .menu {
   max-width: 100%;
   width: 100%;
-
   margin: 0 auto;
   padding: 0 2rem;
   background: transparent green;
@@ -23,11 +22,8 @@
   color: aliceblue;
 }
 
-.logo {
-}
-
 .hamburger-menu {
-  height: 4em;
+  height: 2.5em;
   width: 2.5em;
   cursor: pointer;
   background: transparent;
@@ -49,7 +45,6 @@
 .bar:before,
 .bar:after {
   content: "";
-
   position: absolute;
   width: 1.5rem;
   height: inherit;
@@ -75,22 +70,19 @@
 
 .container .active .bar {
   transform: rotate(0deg);
-  background: transparent;
 }
 .container .active .bar:before {
   transform: rotate(-45deg);
-  background-color: transparent;
 }
 .container .active .bar:after {
   transform: rotate(45deg);
-  background-color: transparent;
 }
 
 .links {
   position: fixed;
   width: 20%;
   right: 0;
-  top: 10vh;
+  top: 6vh;
   height: 90vh;
   z-index: -5 !important;
   background: linear-gradient(

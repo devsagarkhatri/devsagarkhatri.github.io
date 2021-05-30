@@ -34,12 +34,14 @@ class ProjectCard extends Component {
               onMouseLeave={(event) => this.setState({ isTitleVisible: false })}
               // style={{ border: "black 4px solid" }}
             >
-              <img
-                src={project.pic}
-                className="img img-responsive"
-                height="200px"
-                alt=""
-              />
+              <a href={project.link} target="_blank">
+                <img
+                  src={project.pic}
+                  className="img img-responsive"
+                  height="200px"
+                  alt=""
+                />
+              </a>
             </div>
             <div className="text-dark">
               <i

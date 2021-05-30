@@ -24,8 +24,17 @@ class About extends Component {
               from Madan Mohan Malaviya University of Technology, Gorakhpur. I'm
               keen about Technology, hence is easily motivated to develop
               projects in various fields to try and learn.
+              {"  "}
+              <a
+                href="https://media-exp1.licdn.com/dms/document/C4E2DAQHcS7wWz4CN2g/profile-treasury-document-pdf-analyzed/0/1622403049414?e=1622491200&v=beta&t=niYoTx60TWQ5xeXvLnMwwQ4ZCqgRP-REs9rAqhJVSS0"
+                target="_blank"
+                style={{ color: "lightblue" }}
+              >
+                Download my resume here.
+              </a>
             </div>
             <br />
+
             <br />
             <br />
             <br />

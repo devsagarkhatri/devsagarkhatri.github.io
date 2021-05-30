@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import cogoToast from "cogo-toast";
 
 import "./../App.css";
 import "./../../node_modules/bootstrap/dist/js/bootstrap";
@@ -6,13 +7,14 @@ import "./../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
 import PageProgress from "react-page-progress";
 import logo from "./images/Picture0.png";
-import PFV_Panel from "../ReactProjects/PFVisualizer/PFV_Panel";
 
 class Header extends Component {
-  state = {};
   render() {
     return (
       <React.Fragment>
+        {cogoToast.loading("Loading your data...").then(() => {
+          console.log("active now");
+        })}
         <nav className="nav_head sticky-top show navbar navbar-expand-lg navbar-dark ">
           <a className="navbar-brand text-center" href="#">
             <img alt="" src={logo} height="40px" className="imglogo" />
