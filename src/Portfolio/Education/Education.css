@@ -12,8 +12,7 @@
 }
 .bg-chrome {
   /* My own Dark shade below */
-  background-color: rgb(60, 64, 69); 
-  
+  background-color: rgb(60, 64, 69);
 }
 .backTextEd {
   margin-left: 1%;
@@ -25,7 +24,7 @@
   z-index: 0;
   float: left;
   font-size: 2vw;
-  font-family: "Trirong", fantasy;
+  font-family: "DM Serif Display", fantasy;
   color: rgba(200, 200, 2000, 0.03);
 }
 .z2 {
@@ -66,7 +65,7 @@
 }
 
 .hr1 {
-  margin-top: 0px;
+  margin-top: -5px;
   margin-bottom: 0px;
   width: 100%;
   background-color: white;

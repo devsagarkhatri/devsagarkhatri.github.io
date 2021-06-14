@@ -19,7 +19,7 @@ class About extends Component {
           <div className="backTextAb">About</div>
           <div className="z2">
             <div className="heading">About</div>
-            <div className="section">
+            <div className="section h6">
               I'm currently pursuing my Masters degree in Computer Applications
               from Madan Mohan Malaviya University of Technology, Gorakhpur. I'm
               keen about Technology, hence is easily motivated to develop
@@ -33,9 +33,6 @@ class About extends Component {
                 Download my resume here.
               </a>
             </div>
-            <br />
-
-            <br />
             <br />
             <br />
             <div className="Languages">

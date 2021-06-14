@@ -14,6 +14,7 @@ import chart from "./../../components/images/chart2.jpg";
 import rapidrender from "./../../components/images/rapidrender.png";
 import rapidresume from "./../../components/images/resume1.jpg";
 import portfolio from "./../../components/images/portfolio.jpg";
+import corona from "./../../components/images/corona.jpg"
 const projectCategory = [
   {
     key: 1,
@@ -62,7 +63,7 @@ const projectData = [
     category: { key: 1, name: "Java" },
     name: "Car Racing Game",
     desc: "",
-    link: "",
+    link: "https://github.com/devsagarkhatri/carRace_java",
     pic: car,
   },
   {
@@ -70,7 +71,7 @@ const projectData = [
     category: { key: 3, name: "Machine Learning" },
     name: "Diabetes Prediction",
     desc: "",
-    link: "",
+    link: "https://github.com/devsagarkhatri/Heart-Attack-Prediction",
     pic: diabetes,
   },
 
@@ -79,8 +80,16 @@ const projectData = [
     category: { key: 1, name: "Java" },
     name: "Archery GUI Game",
     desc: "",
-    link: "",
+    link: "https://github.com/devsagarkhatri/archery_java",
     pic: archery,
+  },
+  {
+    id: 14,
+    category: { key: 2, name: "React" },
+    name: "Corona Tracker",
+    desc: "",
+    link: "https://devsagarkhatri.github.io/corona/",
+    pic: corona,
   },
   {
     id: 7,
@@ -136,9 +145,10 @@ const projectData = [
     category: { key: 1, name: "Java" },
     name: "TicTacToe",
     desc: "",
-    link: "",
+    link: "https://github.com/devsagarkhatri/tictactoe",
     pic: tictactoe,
   },
+  
 ];
 
 export function getProjects() {

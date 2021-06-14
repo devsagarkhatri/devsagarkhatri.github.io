@@ -21,7 +21,7 @@ const Pagination = (props) => {
                 : "page-item bg-transparent"
             }
           >
-            <a className="page-link" onClick={() => onPageChange(page)}>
+            <a className={page === currentPage ? "page-link text-light" : "page-link text-dark"} onClick={() => onPageChange(page)}>
               {page}
             </a>
           </li>

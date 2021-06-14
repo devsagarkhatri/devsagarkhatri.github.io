@@ -38,7 +38,7 @@ class ProjectCard extends Component {
                 <img
                   src={project.pic}
                   className="img img-responsive"
-                  height="200px"
+                  height="200px"                  
                   alt=""
                 />
               </a>

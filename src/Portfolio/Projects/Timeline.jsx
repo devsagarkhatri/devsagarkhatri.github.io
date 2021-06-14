@@ -8,10 +8,10 @@ class Timeline extends Component {
         {this.props.data.map((data1) => (
           <div className="d-inline col-sm-4  " key={data1.key}>
             <div
-              className="card proCard"
+              className="card proCard col-lg-11"
               style={{
                 width: "16vw",
-
+                height:"16vw",
                 boxShadow: "0 5px 20px 0 rgba(0, 0, 0, 0.03)",
               }}
             >
