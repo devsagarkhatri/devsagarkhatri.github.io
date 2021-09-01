@@ -12,6 +12,7 @@ import Experience from "./Portfolio/Experience/Experience";
 import Welcome1 from "./Portfolio/Welcome1/Welcome1";
 import Projects1 from "./Portfolio/Projects1/Projects1";
 import Footer1 from "./components/Footer/Footer1";
+
 import logo from "./components/images/logoText1.png";
 
 class App extends Component {
@@ -32,10 +33,14 @@ class App extends Component {
 
   componentDidMount() {
     if (this.state.ismsg) {
-      cogoToast.loading("Use ⬅️ and ➡️ keys to navigate!", {
-        hideAfter: 5,
-        position: "top-center",
-      });
+      cogoToast.loading(
+        "Use ⬅️ and ➡️ keys to navigate! Best viewed at 90% zoom.",
+        {
+          hideAfter: 5,
+          position: "top-center",
+        }
+      );
+
       this.setState({ ismsg: false });
     }
   }
