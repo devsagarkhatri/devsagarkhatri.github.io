@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a15ff02.chunk.css",
-    "main.js": "/static/js/main.9db01788.chunk.js",
-    "main.js.map": "/static/js/main.9db01788.chunk.js.map",
+    "main.css": "/static/css/main.c4b3d7ad.chunk.css",
+    "main.js": "/static/js/main.5cf4974b.chunk.js",
+    "main.js.map": "/static/js/main.5cf4974b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fe96b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fe96b04.js.map",
     "static/css/2.86a3a5ec.chunk.css": "/static/css/2.86a3a5ec.chunk.css",
@@ -10,20 +10,20 @@
     "static/js/2.44a48044.chunk.js.map": "/static/js/2.44a48044.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.86a3a5ec.chunk.css.map": "/static/css/2.86a3a5ec.chunk.css.map",
-    "static/css/main.4a15ff02.chunk.css.map": "/static/css/main.4a15ff02.chunk.css.map",
+    "static/css/main.c4b3d7ad.chunk.css.map": "/static/css/main.c4b3d7ad.chunk.css.map",
     "static/js/2.44a48044.chunk.js.LICENSE.txt": "/static/js/2.44a48044.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Picture4.e7c185bc.png",
     "static/media/about.css": "/static/media/about.9d1c7e86.jpg",
     "static/media/angira.2561d1fe.png": "/static/media/angira.2561d1fe.png",
     "static/media/archery.1ca296f0.jpg": "/static/media/archery.1ca296f0.jpg",
-    "static/media/welcome1.css": "/static/media/bg_red_wall.f7e68eb3.png",
+    "static/media/welcome1.css": "/static/media/bg_red_wall.f2cf3ed4.png",
     "static/media/car_race.bd6b296d.jpg": "/static/media/car_race.bd6b296d.jpg",
     "static/media/chart2.13f9fcc7.jpg": "/static/media/chart2.13f9fcc7.jpg",
     "static/media/cnlogo.1ff8f3a8.png": "/static/media/cnlogo.1ff8f3a8.png",
     "static/media/corona.788e384d.jpg": "/static/media/corona.788e384d.jpg",
     "static/media/coursera_logo.c47f5ee2.jpg": "/static/media/coursera_logo.c47f5ee2.jpg",
     "static/media/css_logo.c7363596.png": "/static/media/css_logo.c7363596.png",
-    "static/media/Education.css": "/static/media/ed2.f43a77a6.jpg",
+    "static/media/Education.css": "/static/media/ed2.ee3e096b.jpg",
     "static/media/Experience.css": "/static/media/experience.fd87afcf.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/Projects1.css": "/static/media/projectbg6.d39dbe97.jpg",
@@ -62,7 +62,7 @@
     "static/js/runtime-main.9fe96b04.js",
     "static/css/2.86a3a5ec.chunk.css",
     "static/js/2.44a48044.chunk.js",
-    "static/css/main.4a15ff02.chunk.css",
-    "static/js/main.9db01788.chunk.js"
+    "static/css/main.c4b3d7ad.chunk.css",
+    "static/js/main.5cf4974b.chunk.js"
   ]
 }
