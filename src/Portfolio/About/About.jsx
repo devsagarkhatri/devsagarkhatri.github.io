@@ -20,13 +20,13 @@ class About extends Component {
           <div className="z2">
             <div className="heading">About</div>
             <div className="section h6">
-              I'm currently pursuing my Masters degree in Computer Applications
+              I've recently cmpleted my Masters degree in Computer Applications
               from Madan Mohan Malaviya University of Technology, Gorakhpur. I'm
               keen about Technology, hence is easily motivated to develop
               projects in various fields to try and learn.
               {"  "}
               <a
-                href="https://media-exp1.licdn.com/dms/document/C4E2DAQHcS7wWz4CN2g/profile-treasury-document-pdf-analyzed/0/1622403049414?e=1622491200&v=beta&t=niYoTx60TWQ5xeXvLnMwwQ4ZCqgRP-REs9rAqhJVSS0"
+                href="https://drive.google.com/drive/folders/1-TCn79J9C78aJJhbQFVhD7T4oG3OSXu6?usp=sharing"
                 target="_blank"
                 style={{ color: "lightblue" }}
               >

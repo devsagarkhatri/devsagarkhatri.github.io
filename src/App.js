@@ -58,8 +58,9 @@ class App extends Component {
         <div className={this.state.active === true ? "mainclick" : "main"}>
           <BindKeyboardSwipeableViews
             enableMouseEvents={true}
+            animateTransitions
             index={this.state.slide}
-            onChangeIndex={(index, indexLatest, meta) => {
+            onChangeIndex={(index) => {
               this.setState({ slide: index });
             }}
           >

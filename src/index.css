@@ -9,6 +9,7 @@ body {
   -moz-animation: gradient 20s ease infinite;
   animation: gradient 20s ease infinite;
   scroll-behavior: ;
+  
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,

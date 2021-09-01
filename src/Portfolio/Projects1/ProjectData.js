@@ -15,6 +15,8 @@ import rapidrender from "./../../components/images/rapidrender.png";
 import rapidresume from "./../../components/images/resume1.jpg";
 import portfolio from "./../../components/images/portfolio.jpg";
 import corona from "./../../components/images/corona.jpg"
+import snake from "./../../components/images/snake.jpg";
+
 const projectCategory = [
   {
     key: 1,
@@ -119,13 +121,21 @@ const projectData = [
   {
     id: 10,
     category: { key: 2, name: "React" },
+    name: "Snake",
+    desc: "",
+    link: "https://devsagarkhatri.github.io/snake/",
+    pic: snake,
+  },
+  {
+    id: 11,
+    category: { key: 2, name: "React" },
     name: "Weather",
     desc: "",
     link: "https://devsagarkhatri.github.io/weather/",
     pic: weather,
   },
   {
-    id: 11,
+    id: 12,
     category: { key: 2, name: "React" },
     name: "Rapid Render",
     desc: "",
@@ -133,7 +143,7 @@ const projectData = [
     pic: rapidrender,
   },
   {
-    id: 12,
+    id: 13,
     category: { key: 2, name: "React" },
     name: "Rapid Resume",
     desc: "",
@@ -141,7 +151,7 @@ const projectData = [
     pic: rapidresume,
   },
   {
-    id: 13,
+    id: 14,
     category: { key: 1, name: "Java" },
     name: "TicTacToe",
     desc: "",
