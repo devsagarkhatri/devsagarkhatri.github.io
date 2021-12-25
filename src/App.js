@@ -32,14 +32,14 @@ class App extends Component {
 
   componentDidMount() {
     if (this.state.ismsg) {
-      cogoToast.loading(
-        "Use ⬅️ and ➡️ keys to navigate! Best viewed at 90% zoom.",
-        {
-          hideAfter: 5,
-          position: "top-center",
-        }
-      );
-      this.setState({ ismsg: false });
+      // cogoToast.loading(
+      //   "Use ⬅️ and ➡️ keys to navigate! Best viewed at 90% zoom.",
+      //   {
+      //     hideAfter: 5,
+      //     position: "top-center",
+      //   }
+      // );
+      // this.setState({ ismsg: false });
     }
   }
 
