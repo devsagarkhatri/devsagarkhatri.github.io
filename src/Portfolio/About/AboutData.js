@@ -9,6 +9,9 @@ import numpy from "./../../components/images/numpy_logo.png";
 import pandas from "./../../components/images/pandas_logo.png";
 //import matplot from "./../../components/images/matplot_logo.svg";
 
+import maven from "./../../components/images/apache.png";
+import springboot from "./../../components/images/springboot.png";
+import aem from "./../../components/images/aem.png";
 import microsoft from "./../../components/images/microsoft_logo.png";
 import progate from "./../../components/images/progate_logo.png";
 import coursera from "./../../components/images/coursera_logo.jpg";
@@ -38,6 +41,21 @@ const certdata = [
 ];
 
 const techdata = [
+  {
+    key: 1,
+    name: "Adobe Experience Manager",
+    logo: aem,
+  },
+  {
+    key: 2,
+    name: "Apache Maven",
+    logo: maven,
+  },
+  {
+    key: 1,
+    name: "Springboot",
+    logo: springboot,
+  },
   {
     key: 1,
     name: "HTML",
