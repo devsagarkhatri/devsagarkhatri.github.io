@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.425f287d.chunk.css",
-    "main.js": "/static/js/main.cf532044.chunk.js",
-    "main.js.map": "/static/js/main.cf532044.chunk.js.map",
+    "main.js": "/static/js/main.7fb4feff.chunk.js",
+    "main.js.map": "/static/js/main.7fb4feff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fe96b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fe96b04.js.map",
     "static/css/2.86a3a5ec.chunk.css": "/static/css/2.86a3a5ec.chunk.css",
@@ -14,7 +14,9 @@
     "static/js/2.44a48044.chunk.js.LICENSE.txt": "/static/js/2.44a48044.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Picture4.e7c185bc.png",
     "static/media/about.css": "/static/media/about.9d1c7e86.jpg",
+    "static/media/aem.ba56c3db.png": "/static/media/aem.ba56c3db.png",
     "static/media/angira.2561d1fe.png": "/static/media/angira.2561d1fe.png",
+    "static/media/apache.b3d44755.png": "/static/media/apache.b3d44755.png",
     "static/media/archery.1ca296f0.jpg": "/static/media/archery.1ca296f0.jpg",
     "static/media/welcome1.css": "/static/media/bg_red_wall.f2cf3ed4.png",
     "static/media/car_race.bd6b296d.jpg": "/static/media/car_race.bd6b296d.jpg",
@@ -51,6 +53,7 @@
     "static/media/resume1.b62f0620.jpg": "/static/media/resume1.b62f0620.jpg",
     "static/media/rockPaperScissors1.f3604126.jpg": "/static/media/rockPaperScissors1.f3604126.jpg",
     "static/media/snake.5fd37b6d.jpg": "/static/media/snake.5fd37b6d.jpg",
+    "static/media/springboot.eb3f273f.png": "/static/media/springboot.eb3f273f.png",
     "static/media/sql_logo.cfc12dc9.png": "/static/media/sql_logo.cfc12dc9.png",
     "static/media/sunbeam.f2adf5fe.png": "/static/media/sunbeam.f2adf5fe.png",
     "static/media/tictactoe2.1de37833.jpg": "/static/media/tictactoe2.1de37833.jpg",
@@ -63,6 +66,6 @@
     "static/css/2.86a3a5ec.chunk.css",
     "static/js/2.44a48044.chunk.js",
     "static/css/main.425f287d.chunk.css",
-    "static/js/main.cf532044.chunk.js"
+    "static/js/main.7fb4feff.chunk.js"
   ]
 }
