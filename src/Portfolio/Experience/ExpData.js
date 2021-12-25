@@ -5,6 +5,14 @@ import angira from "./../../components/images/angira.png";
 const expdata = [
   {
     key: 1,
+    role: "Associate SDE",
+    company: "Nagarro",
+    tenure: " November 2021 - Present",
+    desc: "Worked on Adobe Experience Manager(AEM), which is a comprehensive content management solution for building websites, mobile apps and forms. This included various concepts of maven, springDM and OSGi model. ",
+    logo: nagarro,
+  },
+  {
+    key: 2,
     role: "Trainee",
     company: "Nagarro",
     tenure: " August 2021 - November 2021",
@@ -12,7 +20,7 @@ const expdata = [
     logo: nagarro,
   },
   {
-    key: 2,
+    key: 3,
     role: "Intern",
     company: "Angirasoft India",
     tenure: "February 2021 - May 2021",
@@ -20,7 +28,7 @@ const expdata = [
     logo: angira,
   },
   {
-    key: 3,
+    key: 4,
     role: "Intern",
     company: "Coding Ninjas India",
     tenure: " July 2020 - November 2020",
@@ -28,7 +36,7 @@ const expdata = [
     logo: cnlogo,
   },
   {
-    key: 4,
+    key: 5,
     role: "Summer Trainee",
     company: "ICT, Indian Institue of Technology, Kanpur ",
     tenure: "June 2019 - July 2019",

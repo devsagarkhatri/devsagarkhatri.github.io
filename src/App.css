@@ -30,7 +30,8 @@
   transform-style: preserve-3d;
   transition: 1s;
   overflow-y: hidden !important;
-  max-height: 100vh;
+  max-height: 102vh;
+  min-height: 101vh;
 }
 
 .stick {

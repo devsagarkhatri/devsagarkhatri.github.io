@@ -12,7 +12,6 @@ import Experience from "./Portfolio/Experience/Experience";
 import Welcome1 from "./Portfolio/Welcome1/Welcome1";
 import Projects1 from "./Portfolio/Projects1/Projects1";
 import Footer1 from "./components/Footer/Footer1";
-
 import logo from "./components/images/logoText1.png";
 
 class App extends Component {
@@ -40,7 +39,6 @@ class App extends Component {
           position: "top-center",
         }
       );
-
       this.setState({ ismsg: false });
     }
   }
@@ -63,7 +61,6 @@ class App extends Component {
         <div className={this.state.active === true ? "mainclick" : "main"}>
           <BindKeyboardSwipeableViews
             enableMouseEvents={true}
-            animateTransitions
             index={this.state.slide}
             onChangeIndex={(index) => {
               this.setState({ slide: index });
